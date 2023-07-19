@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using Unity.Mathematics;
 using UnityEngine;
 
 public class PlayerController : MonoBehaviour
@@ -12,6 +13,7 @@ public class PlayerController : MonoBehaviour
     public GameObject tiroDoPlayer;
     public Transform localDoDisparo;
     public bool temTiroDuplo;
+    public Transform Arma;
 
     // Start is called before the first frame update
     void Start()
@@ -25,6 +27,10 @@ public class PlayerController : MonoBehaviour
     {
         _playerDireção = new Vector2(Input.GetAxisRaw("Horizontal"),Input.GetAxisRaw("Vertical"));
         Atirar();
+        Vector3 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+        Vector2 dir = (mousePos - Arma.position).normalized;
+        float angle = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg;
+        Arma.localRotation = Quaternion.Euler(0,0,angle);
     }
 
     void FixedUpdate()
@@ -38,7 +44,7 @@ public class PlayerController : MonoBehaviour
         {
             if (temTiroDuplo == false)
             {
-                Instantiate(tiroDoPlayer, localDoDisparo.position, localDoDisparo.rotation );
+                Instantiate(tiroDoPlayer, localDoDisparo.position, Arma.localRotation );
             }
             
         }
