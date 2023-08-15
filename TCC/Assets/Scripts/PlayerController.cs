@@ -9,6 +9,9 @@ public class PlayerController : MonoBehaviour
     private Rigidbody2D _playerRigidbody2D;
     public float _playerVelocidade;
     private Vector2 _playerDireção;
+    private Animator anim;
+    
+    
 
     public GameObject tiroDoPlayer;
     public Transform localDoDisparo;
@@ -20,6 +23,8 @@ public class PlayerController : MonoBehaviour
     {
         _playerRigidbody2D = GetComponent<Rigidbody2D>();
         temTiroDuplo = false;
+        anim = GetComponent<Animator>();
+
     }
 
     // Update is called once per frame
@@ -36,6 +41,21 @@ public class PlayerController : MonoBehaviour
     void FixedUpdate()
     {
         _playerRigidbody2D.MovePosition(_playerRigidbody2D.position + _playerDireção * _playerVelocidade * Time.fixedDeltaTime);
+        if (_playerDireção.x < 0)
+        {
+            anim.SetInteger("transition",1);
+            transform.eulerAngles = new Vector3(0, 180, 0);
+        }
+        else if (_playerDireção.x > 0)
+        {
+            anim.SetInteger("transition",1);
+            transform.eulerAngles = new Vector3(0, 0, 0);
+        }
+
+        if (_playerDireção.x == 0) 
+        {
+            anim.SetInteger("transition",0);
+        }
     }
 
     private void Atirar()
