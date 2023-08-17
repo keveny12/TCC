@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 1581730637232783101}
   - component: {fileID: 1321748232}
   - component: {fileID: 1321748231}
+  - component: {fileID: 583278003}
   m_Layer: 0
   m_Name: Inimigo Medio
   m_TagString: Inimigo
@@ -77,7 +78,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: 340fb7f39c0f37a42b70886e6a9322a3, type: 3}
+  m_Sprite: {fileID: -1598504998, guid: afb948b70f7d5414491999d3d480d18b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -162,3 +163,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   VelocidadeDoTiro: 0
   danoParaDar: 1
+--- !u!95 &583278003
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1581730637232783100}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 7a6cb84277fef2440b55948a5781f178, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
