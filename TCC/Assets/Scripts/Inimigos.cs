@@ -11,7 +11,7 @@ public class Inimigos : MonoBehaviour
     public int darPontos;
     public int chanceParaDropar;
     public bool temEscudo;
-    public GameObject escudoDoInimigo;//servira de referencia ao game object do escudo
+    public GameObject escudoDoInimigo;
     public int vidaMaximaDoEscudo;
     public int vidaAtualDoEscudo;
     public GameObject itenParaDropar;
