@@ -2922,8 +2922,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21bfc64399575134e8b35d08e1ff0728, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  velocidade: 2
+  direcao: 0
   danoParaDar: 4
-  VelocidadeDaPedra: 0
 --- !u!50 &742662954
 Rigidbody2D:
   serializedVersion: 4
@@ -2944,7 +2945,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 7
+  m_Constraints: 5
 --- !u!212 &742662955
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -68557,9 +68558,10 @@ GameObject:
   - component: {fileID: 1511371028}
   - component: {fileID: 1511371027}
   - component: {fileID: 1511371029}
+  - component: {fileID: 1511371030}
   m_Layer: 0
   m_Name: barreira
-  m_TagString: Untagged
+  m_TagString: TileMap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -84622,6 +84624,27 @@ TilemapCollider2D:
   m_Offset: {x: 0, y: 0}
   m_MaximumTileChangeCount: 1000
   m_ExtrusionFactor: 0.00001
+--- !u!50 &1511371030
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1511371025}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 7
 --- !u!4 &1533523321 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1581730637232783088, guid: b7db1303156b1314a8ff6ccba77d4dd5, type: 3}

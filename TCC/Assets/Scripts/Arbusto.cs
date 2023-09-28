@@ -22,7 +22,7 @@ public class Arbusto : MonoBehaviour
         {
             //other.gameObject.GetComponent<VidaDoJogador>().DanoJogador(danoParaDar);
             other.gameObject.GetComponent<VidaDoJogador>();
-            Destroy(this.gameObject);
+            
         }
     }
 }
