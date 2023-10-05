@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using Cinemachine;
@@ -38,6 +39,21 @@ public class Pedra : MonoBehaviour
     }
     void OnTriggerEnter2D(Collider2D other)//diz qual objeto colidiu com o jogador
     {
+       // Debug.Log(other.gameObject.tag);
+       // if (other.gameObject.CompareTag("TileMap"))
+        //{
+          //  direcao = !direcao;
+       // }
+      // if (other.gameObject.CompareTag("Player"))
+        //{
+            //other.gameObject.GetComponent<VidaDoJogador>().DanoJogador(danoParaDar);
+           // other.gameObject.GetComponent<VidaDoJogador>();
+          //  Destroy(this.gameObject);
+       // }
+    }
+
+    private void OnCollisionEnter2D(Collision2D other)
+    {
         if (other.gameObject.CompareTag("TileMap"))
         {
             direcao = !direcao;
@@ -46,8 +62,7 @@ public class Pedra : MonoBehaviour
         {
             //other.gameObject.GetComponent<VidaDoJogador>().DanoJogador(danoParaDar);
             other.gameObject.GetComponent<VidaDoJogador>();
-            Destroy(this.gameObject);
+         //   Destroy(this.gameObject);
         }
     }
-    
 }
