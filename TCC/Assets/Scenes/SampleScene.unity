@@ -2907,6 +2907,7 @@ GameObject:
   - component: {fileID: 742662955}
   - component: {fileID: 742662954}
   - component: {fileID: 742662953}
+  - component: {fileID: 742662958}
   m_Layer: 0
   m_Name: Pedra
   m_TagString: Pedra
@@ -3043,6 +3044,26 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &742662958
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 742662952}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: aca5562b349bccf41ae3ff16fa699e44, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!4 &747871870 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8620569290963719870, guid: 95f2847d9f4359142b41e4f0f1fd6a19, type: 3}
