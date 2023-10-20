@@ -8,7 +8,7 @@ public class VidaDoJogador : MonoBehaviour
     public Slider barraDeVidaDoJogador;//variavel para asessar barra de vida pelo slider
     
     public int vidaMaximaDoJogador;
-    public static int vidaAtualDoJogador = 20;
+    public int vidaAtualDoJogador = 0;
     public int vidaMaximaDoEscudo;
     public int vidaAtualDoEscudo;
 
@@ -18,7 +18,7 @@ public class VidaDoJogador : MonoBehaviour
     void Start()
     {
         vidaAtualDoJogador = vidaMaximaDoJogador;//sempre que o jogo iniciar a vida atual sera igual a vida maxima
-        barraDeVidaDoJogador.maxValue = vidaMaximaDoJogador;// quando o jogo inicia o valor maximo da barra vai ser igual ao valor maximo da vida do jogador
+        //barraDeVidaDoJogador.maxValue = vidaMaximaDoJogador;// quando o jogo inicia o valor maximo da barra vai ser igual ao valor maximo da vida do jogador
         barraDeVidaDoJogador.value = vidaAtualDoJogador;
     }
 

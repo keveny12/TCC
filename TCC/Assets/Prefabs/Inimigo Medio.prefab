@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 1581730637232783101}
   - component: {fileID: 1321748232}
   - component: {fileID: 1321748231}
-  - component: {fileID: 583278003}
+  - component: {fileID: 250945382}
   m_Layer: 0
   m_Name: Inimigo Medio
   m_TagString: Inimigo
@@ -104,7 +104,6 @@ MonoBehaviour:
   VelocidadeDoInimigo: 1
   vidaMaximaDoInimigo: 2
   vidaAtualDoInimigo: 0
-  darPontos: 0
   chanceParaDropar: 0
   temEscudo: 0
   escudoDoInimigo: {fileID: 0}
@@ -112,6 +111,7 @@ MonoBehaviour:
   vidaAtualDoEscudo: 0
   itenParaDropar: {fileID: 0}
   inimigoAtirador: 0
+  danoParaDar: 1
 --- !u!70 &1581730637232783101
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -163,7 +163,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   VelocidadeDoTiro: 0
   danoParaDar: 1
---- !u!95 &583278003
+--- !u!95 &250945382
 Animator:
   serializedVersion: 4
   m_ObjectHideFlags: 0

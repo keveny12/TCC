@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class Inimigos : MonoBehaviour
@@ -8,7 +9,6 @@ public class Inimigos : MonoBehaviour
     public float VelocidadeDoInimigo;
     public int vidaMaximaDoInimigo;
     public int vidaAtualDoInimigo;
-    public int darPontos;
     public int chanceParaDropar;
     public bool temEscudo;
     public GameObject escudoDoInimigo;
@@ -16,6 +16,7 @@ public class Inimigos : MonoBehaviour
     public int vidaAtualDoEscudo;
     public GameObject itenParaDropar;
     public bool inimigoAtirador;
+    public int danoParaDar;
 
     // Start is called before the first frame update
     void Start()
@@ -43,7 +44,17 @@ public class Inimigos : MonoBehaviour
         transform.Translate(Vector3.up * VelocidadeDoInimigo * Time.deltaTime);
         
     }
-    
+
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.gameObject.CompareTag("Player"))
+        {
+            other.gameObject.GetComponent<VidaDoJogador>().DanoJogador(danoParaDar);
+            Destroy(this.gameObject);
+        }
+    }
+
+
     public void DanoInimigo(int danoParaReceber)
     {
         if (temEscudo == false)
