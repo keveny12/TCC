@@ -5,6 +5,7 @@ using UnityEngine;
 
 public class Inimigos : MonoBehaviour
 {
+    
     private Transform Target;
     public float VelocidadeDoInimigo;
     public int vidaMaximaDoInimigo;

@@ -29,7 +29,8 @@ public class TiroDoPlayer : MonoBehaviour
         if (col.gameObject.CompareTag("Inimigo"))
         {
             col.gameObject.GetComponent<Inimigos>().DanoInimigo(danoParaDar);
-                Destroy(this.gameObject);
-            }
+            Destroy(this.gameObject);
+        }
     }
+    
 }
