@@ -116,7 +116,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   VelocidadeDoTiro: 4
-  danoParaDar: 2
+  danoParaDar: 1
 --- !u!114 &1904402143872620353
 MonoBehaviour:
   m_ObjectHideFlags: 0

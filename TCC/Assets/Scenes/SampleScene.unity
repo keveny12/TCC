@@ -626,7 +626,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 88445075}
-  m_LocalRotation: {x: -0.041097034, y: -0.041146398, z: -0.70548654, w: -0.7063333}
+  m_LocalRotation: {x: -0.041097037, y: -0.041146398, z: -0.7054866, w: -0.7063333}
   m_LocalPosition: {x: 0, y: 0, z: -35}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -1898,7 +1898,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 430100334}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.58, y: 0.64, z: 0}
+  m_LocalPosition: {x: -0.64, y: 0.05, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4086,7 +4086,7 @@ GameObject:
   - component: {fileID: 981492339}
   m_Layer: 0
   m_Name: Boss
-  m_TagString: Inimigo
+  m_TagString: Boss
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4103,6 +4103,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2ef9307ed19a3754ea762a509e46b7c5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  barraDeVidaDoBoss: {fileID: 88445077}
   laserDoBoss: {fileID: 1632213911564673765, guid: 10f3644eee281024fb179372678447cf, type: 3}
   localDoDisparo: {fileID: 430100335}
   tempoMaximoEntreOsLasers: 0.5
@@ -4117,7 +4118,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 981492336}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.56, y: -0.1, z: -3.8042207}
+  m_LocalPosition: {x: -3.54, y: 0.2, z: -3.8042207}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -85551,7 +85552,7 @@ GameObject:
   - component: {fileID: 1700883848}
   m_Layer: 0
   m_Name: Lagarto
-  m_TagString: Inimigo
+  m_TagString: Lagarto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

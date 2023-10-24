@@ -60,9 +60,18 @@ public class Pedra : MonoBehaviour
         }
         if (other.gameObject.CompareTag("Player"))
         {
-            //other.gameObject.GetComponent<VidaDoJogador>().DanoJogador(danoParaDar);
-            other.gameObject.GetComponent<VidaDoJogador>();
+            other.gameObject.GetComponent<VidaDoJogador>().DanoJogador(danoParaDar);
+           // other.gameObject.GetComponent<VidaDoJogador>();
          //   Destroy(this.gameObject);
         }
     }
+    //void OnCollisionEnter2D(Collider2D other)//diz qual objeto colidiu com o jogador
+    //{
+       // if (other.gameObject.CompareTag("Player"))
+       // {
+         //   other.gameObject.GetComponent<VidaDoJogador>().DanoJogador(danoParaDar);
+            //other.gameObject.GetComponent<VidaDoJogador>();
+            //Destroy(this.gameObject);
+       // }
+    //}
 }

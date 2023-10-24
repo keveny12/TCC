@@ -18,8 +18,9 @@ public class VidaDoJogador : MonoBehaviour
     void Start()
     {
         vidaAtualDoJogador = vidaMaximaDoJogador;//sempre que o jogo iniciar a vida atual sera igual a vida maxima
-        //barraDeVidaDoJogador.maxValue = vidaMaximaDoJogador;// quando o jogo inicia o valor maximo da barra vai ser igual ao valor maximo da vida do jogador
+        barraDeVidaDoJogador.maxValue = vidaMaximaDoJogador;// quando o jogo inicia o valor maximo da barra vai ser igual ao valor maximo da vida do jogador
         barraDeVidaDoJogador.value = vidaAtualDoJogador;
+        
     }
 
     // Update is called once per frame

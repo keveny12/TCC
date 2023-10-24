@@ -8,6 +8,8 @@ TagManager:
   - Pedra
   - Arbusto
   - TileMap
+  - Boss
+  - Lagarto
   layers:
   - Default
   - TransparentFX

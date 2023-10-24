@@ -117,7 +117,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   velocidadeDoTiro: 10
-  danoParaDar: 5
+  danoParaDar: 1
 --- !u!50 &9061642608010286462
 Rigidbody2D:
   serializedVersion: 4

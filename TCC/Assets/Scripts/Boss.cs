@@ -1,9 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Boss : MonoBehaviour
 {
+    public Slider barraDeVidaDoBoss;
     public GameObject laserDoBoss;
     public Transform localDoDisparo;
     public float tempoMaximoEntreOsLasers;
@@ -15,6 +17,8 @@ public class Boss : MonoBehaviour
     void Start()
     {
         vidaAtualDoInimigo = vidaMaximaDoInimigo;
+        barraDeVidaDoBoss.maxValue = vidaMaximaDoInimigo;
+        barraDeVidaDoBoss.value = vidaAtualDoInimigo;
     }
 
     // Update is called once per frame
@@ -36,6 +40,7 @@ public class Boss : MonoBehaviour
     public void DanoInimigo(int danoParaReceber)
     {
         vidaAtualDoInimigo -= danoParaReceber;
+        barraDeVidaDoBoss.value = vidaAtualDoInimigo;
 
         if (vidaAtualDoInimigo <= 0)
         {
