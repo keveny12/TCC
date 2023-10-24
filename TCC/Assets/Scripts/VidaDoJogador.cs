@@ -9,9 +9,9 @@ public class VidaDoJogador : MonoBehaviour
     
     public int vidaMaximaDoJogador;
     public int vidaAtualDoJogador = 0;
+    
     public int vidaMaximaDoEscudo;
     public int vidaAtualDoEscudo;
-
     public bool temEscudo;
     public GameObject escudoDoJogador; 
     // Start is called before the first frame update
@@ -21,12 +21,21 @@ public class VidaDoJogador : MonoBehaviour
         barraDeVidaDoJogador.maxValue = vidaMaximaDoJogador;// quando o jogo inicia o valor maximo da barra vai ser igual ao valor maximo da vida do jogador
         barraDeVidaDoJogador.value = vidaAtualDoJogador;
         
+        escudoDoJogador.SetActive(false);
+        temEscudo = false;
     }
 
     // Update is called once per frame
     void Update()
     {
         
+    }
+
+    public void AtivarEscudo()
+    {
+        vidaAtualDoEscudo = vidaMaximaDoEscudo;
+        escudoDoJogador.SetActive(true);
+        temEscudo = true;
     }
     public void DanoJogador(int danoParaReceber)
     {
