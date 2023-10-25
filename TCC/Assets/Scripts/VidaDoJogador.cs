@@ -37,6 +37,14 @@ public class VidaDoJogador : MonoBehaviour
         escudoDoJogador.SetActive(true);
         temEscudo = true;
     }
+
+    public void GanharVida(int vidaParaReceber)
+    {
+        if (vidaAtualDoJogador + vidaParaReceber <= vidaMaximaDoEscudo)
+        {
+            vidaAtualDoJogador += vidaParaReceber;
+        }
+    }
     public void DanoJogador(int danoParaReceber)
     {
         if (temEscudo == false)
