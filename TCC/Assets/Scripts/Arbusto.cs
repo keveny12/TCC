@@ -16,13 +16,11 @@ public class Arbusto : MonoBehaviour
     {
         
     }
-    void OnTriggerEnter2D(Collider2D other)//diz qual objeto colidiu com o jogador
+    private void OnTriggerEnter2D(Collider2D other)//diz qual objeto colidiu com o jogador
     {
         if (other.gameObject.CompareTag("Player"))
         {
-            //other.gameObject.GetComponent<VidaDoJogador>().DanoJogador(danoParaDar);
-            other.gameObject.GetComponent<VidaDoJogador>();
-            
+            other.gameObject.GetComponent<VidaDoJogador>().DanoJogador(danoParaDar);
         }
     }
 }

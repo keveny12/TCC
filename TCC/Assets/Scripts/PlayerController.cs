@@ -15,6 +15,10 @@ public class PlayerController : MonoBehaviour
 
     public GameObject tiroDoPlayer;
     public Transform localDoDisparo;
+    public Transform localDoDisparoEsquerda;
+    public Transform localDoDisparoDireita;
+    public float tempoMaximoDosTirosDuplus;
+    public float tempoAtualDosTirorsDuplos;
     public bool temTiroDuplo;
     public Transform Arma;
 
@@ -23,6 +27,7 @@ public class PlayerController : MonoBehaviour
     {
         _playerRigidbody2D = GetComponent<Rigidbody2D>();
         temTiroDuplo = false;
+        tempoAtualDosTirorsDuplos = tempoMaximoDosTirosDuplus;
         anim = GetComponent<Animator>();
 
     }
@@ -36,6 +41,15 @@ public class PlayerController : MonoBehaviour
         Vector2 dir = (mousePos - Arma.position).normalized;
         float angle = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg;
         Arma.localRotation = Quaternion.Euler(0,0,angle);
+
+        if (temTiroDuplo == true)
+        {
+            tempoAtualDosTirorsDuplos -= Time.deltaTime;
+            if (tempoAtualDosTirorsDuplos <= 0)
+            {
+                DesativarTiroDuplo();
+            }
+        }
     }
 
     void FixedUpdate()
@@ -66,7 +80,18 @@ public class PlayerController : MonoBehaviour
             {
                 Instantiate(tiroDoPlayer, localDoDisparo.position, Arma.localRotation );
             }
+            else
+            {
+                Instantiate(tiroDoPlayer, localDoDisparoEsquerda.position, localDoDisparoEsquerda.rotation);
+                Instantiate(tiroDoPlayer, localDoDisparoDireita.position, localDoDisparoDireita.rotation);
+            }
             
         }
+    }
+
+    private void DesativarTiroDuplo()
+    {
+        temTiroDuplo = false;
+        tempoAtualDosTirorsDuplos = tempoMaximoDosTirosDuplus;
     }
 }

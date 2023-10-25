@@ -993,7 +993,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 81cb80f269a98fb4682640293a48ff9b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  danoParaDar: 3
+  danoParaDar: 2
 --- !u!1001 &159431916
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1308,6 +1308,37 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1581730637232783088, guid: b7db1303156b1314a8ff6ccba77d4dd5, type: 3}
   m_PrefabInstance: {fileID: 1662854423}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &274468519
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 274468520}
+  m_Layer: 0
+  m_Name: Local Do Disparo Direita
+  m_TagString: Untagged
+  m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &274468520
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 274468519}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.63, y: -0.1, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1449897592}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &301805499 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8620569290963719870, guid: 95f2847d9f4359142b41e4f0f1fd6a19, type: 3}
@@ -67739,6 +67770,37 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 95f2847d9f4359142b41e4f0f1fd6a19, type: 3}
+--- !u!1 &1234682369
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1234682370}
+  m_Layer: 0
+  m_Name: Local Do Disparo Esquerda
+  m_TagString: Untagged
+  m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1234682370
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1234682369}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.61, y: 0.32, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1449897592}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1249311616
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -68753,6 +68815,10 @@ MonoBehaviour:
   _playerVelocidade: 5
   tiroDoPlayer: {fileID: 6133503439516982640, guid: 9493b6401f30ef346b3331887c974374, type: 3}
   localDoDisparo: {fileID: 1250105994}
+  localDoDisparoEsquerda: {fileID: 1234682370}
+  localDoDisparoDireita: {fileID: 274468520}
+  tempoMaximoDosTirosDuplus: 10
+  tempoAtualDosTirorsDuplos: 0
   temTiroDuplo: 0
   Arma: {fileID: 1707703364}
 --- !u!212 &1449897591
@@ -68822,6 +68888,8 @@ Transform:
   - {fileID: 1250105994}
   - {fileID: 1707703364}
   - {fileID: 2066314530}
+  - {fileID: 1234682370}
+  - {fileID: 274468520}
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
