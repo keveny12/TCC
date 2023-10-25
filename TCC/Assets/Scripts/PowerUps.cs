@@ -1,18 +1,45 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
+using Cinemachine;
 using UnityEngine;
 
 public class PowerUps : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public bool itemDeEscudo;
+    public bool itemDeVida;
+    public bool itemDePocao;
+    public bool itemDeTiroDuplo;
+    public int vidaParaDar;
 
-    // Update is called once per frame
-    void Update()
+    private void OnTriggerEnter2D(Collider2D other)
     {
-        
+        if (other.gameObject.CompareTag("Player"))
+        {
+            if (itemDeEscudo == true)
+            {
+                other.gameObject.GetComponent<VidaDoJogador>().AtivarEscudo();
+            }
+
+            if (itemDePocao == true)
+            {
+                
+            }
+
+            if (itemDeVida == true)
+            {
+                other.gameObject.GetComponent<VidaDoJogador>().GanharVida(vidaParaDar);
+            }
+
+            if (itemDeTiroDuplo == true)
+            {
+                other.gameObject.GetComponent<PlayerController>().temTiroDuplo = false;
+                other.gameObject.GetComponent<PlayerController>().tempoAtualDosTirorsDuplos =
+                    other.gameObject.GetComponent<PlayerController>().tempoMaximoDosTirosDuplus;
+                other.gameObject.GetComponent<PlayerController>().temTiroDuplo = true;
+            }
+            
+            Destroy(this.gameObject);
+        }
     }
 }

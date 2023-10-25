@@ -20,7 +20,8 @@ public class VidaDoJogador : MonoBehaviour
         vidaAtualDoJogador = vidaMaximaDoJogador;//sempre que o jogo iniciar a vida atual sera igual a vida maxima
         barraDeVidaDoJogador.maxValue = vidaMaximaDoJogador;// quando o jogo inicia o valor maximo da barra vai ser igual ao valor maximo da vida do jogador
         barraDeVidaDoJogador.value = vidaAtualDoJogador;
-        
+
+        vidaAtualDoEscudo = vidaMaximaDoEscudo;
         escudoDoJogador.SetActive(false);
         temEscudo = false;
     }
@@ -44,6 +45,12 @@ public class VidaDoJogador : MonoBehaviour
         {
             vidaAtualDoJogador += vidaParaReceber;
         }
+        else
+        {
+            vidaAtualDoJogador = vidaMaximaDoJogador;
+        }
+
+        barraDeVidaDoJogador.value = vidaAtualDoJogador;
     }
     public void DanoJogador(int danoParaReceber)
     {
