@@ -15,7 +15,7 @@ public class Inimigos : MonoBehaviour
     public GameObject escudoDoInimigo;
     public int vidaMaximaDoEscudo;
     public int vidaAtualDoEscudo;
-    public GameObject itenParaDropar;
+    public GameObject itemParaDropar;
     public bool inimigoAtirador;
     public int danoParaDar;
 
@@ -68,7 +68,7 @@ public class Inimigos : MonoBehaviour
                 int numeroAleatorio = Random.Range(0, 100); //cria variavel que sortea um numero aleatorio para dropar o power up
                 if (numeroAleatorio <= chanceParaDropar) //porcentagem da chance de dropar power up
                 {
-                    Instantiate(itenParaDropar, transform.position, Quaternion.Euler(0f, 0f, 0f));
+                    Instantiate(itemParaDropar, transform.position, Quaternion.Euler(0f, 0f, 0f));
                 }
                 Destroy(this.gameObject);
             }

@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Random = UnityEngine.Random;
 
 public class Lagarto : MonoBehaviour
 {
@@ -14,6 +15,8 @@ public class Lagarto : MonoBehaviour
     public bool direcao;
     public int vidaMaximaDoInimigo;
     public int vidaAtualDoInimigo;
+    public GameObject itemParaDropar;
+    public int chanceParaDropar;
     // Start is called before the first frame update
     void Start()
     {
@@ -57,11 +60,11 @@ public class Lagarto : MonoBehaviour
         if (vidaAtualDoInimigo <= 0)
         {
             //GameManager.Instance.AumentoPontos(darPontos);
-            //int numeroAleatorio = Random.Range(0, 100); //cria variavel que sortea um numero aleatorio para dropar o power up
-            //if (numeroAleatorio <= chanceParaDropar) //porcentagem da chance de dropar power up
-            //{
-            //    Instantiate(itenParaDropar, transform.position, Quaternion.Euler(0f, 0f, 0f));
-            // }
+            int numeroAleatorio = Random.Range(0, 100); //cria variavel que sortea um numero aleatorio para dropar o power up
+            if (numeroAleatorio <= chanceParaDropar) //porcentagem da chance de dropar power up
+            {
+                Instantiate(itemParaDropar, transform.position, Quaternion.Euler(0f, 0f, 0f));
+            }
             Destroy(this.gameObject);
         }
     }
