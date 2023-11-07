@@ -22,13 +22,16 @@ public class Espinho : MonoBehaviour
         {
             other.gameObject.GetComponent<VidaDoJogador>().DanoJogador(danoParaDar);
         }
-        
-        if (espinho == true)
+
+        if (other.gameObject.CompareTag("Player"))
         {
-            //other.gameObject.GetComponent<PlayerController>().temEspinho = false;
-            other.gameObject.GetComponent<PlayerController>().tempoAtualDoEspinho =
-                other.gameObject.GetComponent<PlayerController>().tempoMaximoDoEspinho;
-            other.gameObject.GetComponent<PlayerController>().temEspinho = true;
+            if (espinho == true)
+            {
+                other.gameObject.GetComponent<PlayerController>().temEspinho = false;
+                other.gameObject.GetComponent<PlayerController>().tempoAtualDoEspinho =
+                    other.gameObject.GetComponent<PlayerController>().tempoMaximoDoEspinho;
+                other.gameObject.GetComponent<PlayerController>().temEspinho = true;
+            }
         }
     }
 }
