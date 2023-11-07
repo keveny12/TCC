@@ -25,7 +25,7 @@ public class Espinho : MonoBehaviour
         
         if (espinho == true)
         {
-            other.gameObject.GetComponent<PlayerController>().temEspinho = false;
+            //other.gameObject.GetComponent<PlayerController>().temEspinho = false;
             other.gameObject.GetComponent<PlayerController>().tempoAtualDoEspinho =
                 other.gameObject.GetComponent<PlayerController>().tempoMaximoDoEspinho;
             other.gameObject.GetComponent<PlayerController>().temEspinho = true;

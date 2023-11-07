@@ -12,7 +12,7 @@ public class PlayerController : MonoBehaviour
     private Animator anim;
     public float VelocidadePoção;
     public float velocidadeEspinho;
-    
+    public float _playerVelocidadeInicial;
     
 
     public GameObject tiroDoPlayer;
@@ -29,6 +29,7 @@ public class PlayerController : MonoBehaviour
     public bool temEspinho;
     public float tempoMaximoDoEspinho;
     public float tempoAtualDoEspinho;
+    public float velocidade;
 
 
     // Start is called before the first frame update
@@ -79,6 +80,12 @@ public class PlayerController : MonoBehaviour
                 DesativarEspinho();
             }
         }
+        pocao();
+        Espinho();
+        if (temPocao == false)
+        {
+            _playerVelocidade = _playerVelocidadeInicial;
+        }
     }
 
     void FixedUpdate()
@@ -126,24 +133,30 @@ public class PlayerController : MonoBehaviour
 
     private void pocao()
     {
-        if (temPocao == false)
+        if (temPocao == true)
         {
-            //_playerVelocidade = _playerVelocidade;
+           // _playerVelocidade = _playerVelocidadeInicial;
+            _playerVelocidadeInicial = VelocidadePoção;
+
         }
         else
         {
-            //_playerVelocidade = VelocidadePoção;
+            _playerVelocidade = velocidade;
+           // _playerVelocidade = VelocidadePoção;
         }
+
     }
     private void Espinho()
     {
         if (temEspinho == false)
         {
-            //_playerVelocidade = _playerVelocidade;
+            _playerVelocidade = _playerVelocidadeInicial;
+            
         }
         else
         {
-            //_playerVelocidade = velocidadeEspinho;
+            _playerVelocidade = velocidadeEspinho;
+            
         }
     }
     private void DesativarPocao()
