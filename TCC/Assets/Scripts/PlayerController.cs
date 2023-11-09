@@ -65,27 +65,27 @@ public class PlayerController : MonoBehaviour
 
         if (temPocao == true)
         {
+            pocao();
             tempoAtualDaPocao -= Time.deltaTime;
             if (tempoAtualDaPocao <= 0)
             {
                 DesativarPocao();
+                pocao();
             }
         }
         
         if (temEspinho == true)
         {
+            Espinho();
             tempoAtualDoEspinho -= Time.deltaTime;
             if (tempoAtualDoEspinho <= 0)
             {
                 DesativarEspinho();
+                Espinho();
             }
         }
-        pocao();
-        Espinho();
-        if (temPocao == false)
-        {
-            _playerVelocidade = _playerVelocidadeInicial;
-        }
+       
+        
     }
 
     void FixedUpdate()
@@ -133,16 +133,16 @@ public class PlayerController : MonoBehaviour
 
     private void pocao()
     {
-        if (temPocao == true)
+        if (temPocao == false)
         {
-           // _playerVelocidade = _playerVelocidadeInicial;
-            _playerVelocidadeInicial = VelocidadePoção;
+            _playerVelocidade = _playerVelocidadeInicial;
+            //_playerVelocidade = VelocidadePoção;
 
         }
         else
         {
-            _playerVelocidade = velocidade;
-           // _playerVelocidade = VelocidadePoção;
+            //_playerVelocidade = _playerVelocidadeInicial;
+            _playerVelocidade = VelocidadePoção;
         }
 
     }

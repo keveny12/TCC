@@ -6,6 +6,7 @@ using UnityEngine.UI;
 
 public class Boss : MonoBehaviour
 {
+    public int danoParaDar;
     public float velocidade;
     public float tempoDeAndar;
     private float timer;
@@ -91,6 +92,13 @@ public class Boss : MonoBehaviour
             //    Instantiate(itenParaDropar, transform.position, Quaternion.Euler(0f, 0f, 0f));
            // }
             Destroy(this.gameObject);
+        }
+    }
+    private void OnTriggerEnter2D(Collider2D other)//diz qual objeto colidiu com o jogador
+    {
+        if (other.gameObject.CompareTag("Player"))
+        {
+            other.gameObject.GetComponent<VidaDoJogador>().DanoJogador(danoParaDar);
         }
     }
 }
