@@ -78,11 +78,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2ef9307ed19a3754ea762a509e46b7c5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  danoParaDar: 0
   velocidade: 2
   tempoDeAndar: 3
   andar: 1
   barraDeVidaDoBoss: {fileID: 0}
   laserDoBoss: {fileID: 1632213911564673765, guid: 10f3644eee281024fb179372678447cf, type: 3}
+  laserDoBoss2: {fileID: 0}
   localDoDisparo: {fileID: 6347043909976760645}
   tempoMaximoEntreOsLasers: 0.5
   tempoAtualDosLasers: 0
