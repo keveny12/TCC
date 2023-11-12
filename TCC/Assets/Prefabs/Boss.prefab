@@ -42,6 +42,7 @@ GameObject:
   - component: {fileID: 6347043910461295704}
   - component: {fileID: 6347043910461295707}
   - component: {fileID: 6347043910461295705}
+  - component: {fileID: 1856949304}
   m_Layer: 0
   m_Name: Boss
   m_TagString: Boss
@@ -77,6 +78,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2ef9307ed19a3754ea762a509e46b7c5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  velocidade: 2
+  tempoDeAndar: 3
+  andar: 1
   barraDeVidaDoBoss: {fileID: 0}
   laserDoBoss: {fileID: 1632213911564673765, guid: 10f3644eee281024fb179372678447cf, type: 3}
   localDoDisparo: {fileID: 6347043909976760645}
@@ -100,3 +104,24 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
+--- !u!50 &1856949304
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6347043910461295706}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
