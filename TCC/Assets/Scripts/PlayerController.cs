@@ -10,9 +10,7 @@ public class PlayerController : MonoBehaviour
     public float _playerVelocidade;
     private Vector2 _playerDireção;
     private Animator anim;
-    public float VelocidadePoção;
-    public float velocidadeEspinho;
-    public float _playerVelocidadeInicial;
+    
     
 
     public GameObject tiroDoPlayer;
@@ -23,14 +21,6 @@ public class PlayerController : MonoBehaviour
     public float tempoAtualDosTirorsDuplos;
     public bool temTiroDuplo;
     public Transform Arma;
-    public bool temPocao;
-    public float tempoMaximoDaPocao;
-    public float tempoAtualDaPocao;
-    public bool temEspinho;
-    public float tempoMaximoDoEspinho;
-    public float tempoAtualDoEspinho;
-    public float velocidade;
-
 
     // Start is called before the first frame update
     void Start()
@@ -38,8 +28,6 @@ public class PlayerController : MonoBehaviour
         _playerRigidbody2D = GetComponent<Rigidbody2D>();
         temTiroDuplo = false;
         tempoAtualDosTirorsDuplos = tempoMaximoDosTirosDuplus;
-        tempoAtualDaPocao = tempoMaximoDaPocao;
-        tempoAtualDoEspinho = tempoMaximoDoEspinho;
         anim = GetComponent<Animator>();
 
     }
@@ -62,30 +50,6 @@ public class PlayerController : MonoBehaviour
                 DesativarTiroDuplo();
             }
         }
-
-        if (temPocao == true)
-        {
-            pocao();
-            tempoAtualDaPocao -= Time.deltaTime;
-            if (tempoAtualDaPocao <= 0)
-            {
-                DesativarPocao();
-                pocao();
-            }
-        }
-        
-        if (temEspinho == true)
-        {
-            Espinho();
-            tempoAtualDoEspinho -= Time.deltaTime;
-            if (tempoAtualDoEspinho <= 0)
-            {
-                DesativarEspinho();
-                Espinho();
-            }
-        }
-       
-        
     }
 
     void FixedUpdate()
@@ -129,44 +93,5 @@ public class PlayerController : MonoBehaviour
     {
         temTiroDuplo = false;
         tempoAtualDosTirorsDuplos = tempoMaximoDosTirosDuplus;
-    }
-
-    private void pocao()
-    {
-        if (temPocao == false)
-        {
-            _playerVelocidade = _playerVelocidadeInicial;
-            //_playerVelocidade = VelocidadePoção;
-
-        }
-        else
-        {
-            //_playerVelocidade = _playerVelocidadeInicial;
-            _playerVelocidade = VelocidadePoção;
-        }
-
-    }
-    private void Espinho()
-    {
-        if (temEspinho == false)
-        {
-            _playerVelocidade = _playerVelocidadeInicial;
-            
-        }
-        else
-        {
-            _playerVelocidade = velocidadeEspinho;
-            
-        }
-    }
-    private void DesativarPocao()
-    {
-        temPocao = false;
-        tempoAtualDaPocao = tempoMaximoDaPocao;
-    }
-    private void DesativarEspinho()
-    {
-        temEspinho = false;
-        tempoAtualDoEspinho = tempoMaximoDoEspinho;
     }
 }

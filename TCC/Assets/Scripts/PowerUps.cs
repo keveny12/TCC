@@ -23,10 +23,7 @@ public class PowerUps : MonoBehaviour
 
             if (itemDePocao == true)
             {
-                other.gameObject.GetComponent<PlayerController>().temPocao = false;
-                other.gameObject.GetComponent<PlayerController>().tempoAtualDaPocao =
-                    other.gameObject.GetComponent<PlayerController>().tempoMaximoDaPocao;
-                other.gameObject.GetComponent<PlayerController>().temPocao = true;
+                
             }
 
             if (itemDeVida == true)
