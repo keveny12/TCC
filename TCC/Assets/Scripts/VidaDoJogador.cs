@@ -61,9 +61,9 @@ public class VidaDoJogador : MonoBehaviour
 
             if (vidaAtualDoJogador <= 0)//sempre que o jogador morrer vai rodar esse codigo
             {
-                Debug.Log("perdeu hp");
-                vidaAtualDoJogador = vidaMaximaDoJogador;
-                barraDeVidaDoJogador.value = vidaAtualDoJogador;
+                GameController.instance.GameOver();
+                //vidaAtualDoJogador = vidaMaximaDoJogador;
+                //barraDeVidaDoJogador.value = vidaAtualDoJogador;
                 //GameController.instance.TirarVida();
             }
 
