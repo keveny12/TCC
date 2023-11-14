@@ -41,5 +41,10 @@ public class TimeController : MonoBehaviour
             int tempSeg = Mathf.FloorToInt(restante % 60);
             tempo.text = string.Format("{00:00}:{01:00}", tempMin, tempSeg);
         }
+
+       // if (tempo <= 0)
+       // {
+           // gameObject.GetComponent<VidaDoJogador>().Boss(ChamarBoss);
+        //}
     }
 }

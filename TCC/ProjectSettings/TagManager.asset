@@ -10,6 +10,7 @@ TagManager:
   - TileMap
   - Boss
   - Lagarto
+  - spawnBoss
   layers:
   - Default
   - TransparentFX

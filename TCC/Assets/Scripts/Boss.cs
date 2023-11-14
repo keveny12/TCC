@@ -1,11 +1,14 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using Unity.Mathematics;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class Boss : MonoBehaviour
 {
+    public GameObject boss;
+    public GameObject spawn;
     public int danoParaDar;
     public float velocidade;
     public float tempoDeAndar;
@@ -100,5 +103,12 @@ public class Boss : MonoBehaviour
         {
             other.gameObject.GetComponent<VidaDoJogador>().DanoJogador(danoParaDar);
         }
+    }
+
+    public void ChamarBoss()
+    {
+        spawn = GameObject.FindWithTag("spawnBoss");
+        Vector2 posicao = this.spawn.transform.position;
+        Instantiate(boss, posicao, quaternion.identity);
     }
 }
