@@ -1,50 +1,56 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class TimeController : MonoBehaviour
 {
-    [SerializeField] int min, seg;
-
-    [SerializeField] Text tempo;
-
+    public GameObject boss;
+    public GameObject spawn;
     private float restante;
     private bool andando;
-
+    [SerializeField] int min, seg;
+    [SerializeField] Text tempo;
     private void Awake()
     {
         restante = (min * 60) + seg;
         andando = true;
+        
     }
-
-    // Start is called before the first frame update
     void Start()
     {
         
     }
-
-    // Update is called once per frame
     void Update()
     {
         if (andando)
         {
             restante -= Time.deltaTime;
-            if (restante < 1)
+            if (restante <= 0)
             {
-                andando = true;
+                andando = false;
+                tempo.text = "00:00";
+                ChamarBoss();
+                GameController.instance.BarraDeVida();
                 //soltar o boss
             }
 
             int tempMin = Mathf.FloorToInt(restante / 60);
             int tempSeg = Mathf.FloorToInt(restante % 60);
             tempo.text = string.Format("{00:00}:{01:00}", tempMin, tempSeg);
+            
         }
-
-       // if (tempo <= 0)
-       // {
-           // gameObject.GetComponent<VidaDoJogador>().Boss(ChamarBoss);
-        //}
+    }
+    public void ChamarBoss()
+    {
+        
+        
+            spawn = GameObject.FindWithTag("spawnBoss");
+            Vector2 posicao = this.spawn.transform.position;
+            GameObject bossInstance = Instantiate(boss, posicao, Quaternion.identity);
+            //bossInstance.GetComponent<Boss>().barraDeVidaDoBoss = //variavel que guarda a ref pra barra de vida
+        
     }
 }

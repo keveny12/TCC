@@ -5,28 +5,25 @@ using UnityEngine.UI;
 
 public class VidaDoJogador : MonoBehaviour
 {
-    public Slider barraDeVidaDoJogador;//variavel para asessar barra de vida pelo slider
-    
+    public Slider barraDeVidaDoJogador;
     public int vidaMaximaDoJogador;
     public int vidaAtualDoJogador = 0;
-    
     public int vidaMaximaDoEscudo;
     public int vidaAtualDoEscudo;
     public bool temEscudo;
     public GameObject escudoDoJogador; 
-    // Start is called before the first frame update
+    
     void Start()
     {
-        vidaAtualDoJogador = vidaMaximaDoJogador;//sempre que o jogo iniciar a vida atual sera igual a vida maxima
-        barraDeVidaDoJogador.maxValue = vidaMaximaDoJogador;// quando o jogo inicia o valor maximo da barra vai ser igual ao valor maximo da vida do jogador
+        vidaAtualDoJogador = vidaMaximaDoJogador;
+        barraDeVidaDoJogador.maxValue = vidaMaximaDoJogador;
         barraDeVidaDoJogador.value = vidaAtualDoJogador;
 
         vidaAtualDoEscudo = vidaMaximaDoEscudo;
         escudoDoJogador.SetActive(false);
         temEscudo = false;
     }
-
-    // Update is called once per frame
+    
     void Update()
     {
         
@@ -59,7 +56,7 @@ public class VidaDoJogador : MonoBehaviour
             vidaAtualDoJogador -= danoParaReceber;
             barraDeVidaDoJogador.value = vidaAtualDoJogador;
 
-            if (vidaAtualDoJogador <= 0)//sempre que o jogador morrer vai rodar esse codigo
+            if (vidaAtualDoJogador <= 0)
             {
                 GameController.instance.GameOver();
                 //vidaAtualDoJogador = vidaMaximaDoJogador;
@@ -73,7 +70,7 @@ public class VidaDoJogador : MonoBehaviour
             vidaAtualDoEscudo -= danoParaReceber;
             if (vidaAtualDoEscudo <= 0)
             {
-                escudoDoJogador.SetActive(false);//desativa o escudo
+                escudoDoJogador.SetActive(false);
                 temEscudo = false;
             }
         }

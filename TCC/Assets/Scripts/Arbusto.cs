@@ -5,18 +5,8 @@ using UnityEngine;
 public class Arbusto : MonoBehaviour
 {
     public int danoParaDar;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-    private void OnTriggerEnter2D(Collider2D other)//diz qual objeto colidiu com o jogador
+    
+    private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.gameObject.CompareTag("Player"))
         {

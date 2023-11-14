@@ -12,9 +12,10 @@ public class GameController : MonoBehaviour
     private bool isPaused;
     public GameObject gameOverObj;
     public GameObject fimFaseObj;
-
+    public GameObject barraDeVida;
     public Text scoreText;
-  
+    public GameObject fim;
+    
     void Start()
     {
         instance = this;
@@ -27,13 +28,16 @@ public class GameController : MonoBehaviour
         score += value;
         scoreText.text = score.ToString();
     }
-
-    // Update is called once per frame
+    
+    
     void Update()
     {
         PauseGame();
-       
-        
+    }
+
+    public void BarraDeVida()
+    {
+        barraDeVida.SetActive(true);
     }
     public void PauseGame()
     {
@@ -41,28 +45,35 @@ public class GameController : MonoBehaviour
         {
             isPaused = !isPaused;
             pauseObj.SetActive(isPaused);
+            
+            if (isPaused)
+            {
+                Time.timeScale = 0f;
+            }
+            else
+            {
+                Time.timeScale = 1f;
+            }
         }
-
-        if (isPaused)
-        {
-            Time.timeScale = 0f;
-        }
-        else
-        {
-            Time.timeScale = 1f;
-        }
+        
     }
 
     public void GameOver()
     {
+        Debug.Log("marreu");
         Time.timeScale = 0f;
         gameOverObj.SetActive(true);
+        
     }
 
     public void FimDeFase()
     {
-        fimFaseObj.SetActive(true);
         Time.timeScale = 0f;
+        fimFaseObj.SetActive(true);
+    }
+    public void NextGame()
+    {
+        SceneManager.LoadScene(1);
     }
 
     public void RestartGame()
@@ -74,4 +85,5 @@ public class GameController : MonoBehaviour
     {
         SceneManager.LoadScene(0);
     }
+    
 }

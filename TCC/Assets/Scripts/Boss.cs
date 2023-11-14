@@ -7,8 +7,6 @@ using UnityEngine.UI;
 
 public class Boss : MonoBehaviour
 {
-    public GameObject boss;
-    public GameObject spawn;
     public int danoParaDar;
     public float velocidade;
     public float tempoDeAndar;
@@ -21,12 +19,9 @@ public class Boss : MonoBehaviour
     public Transform localDoDisparo;
     public float tempoMaximoEntreOsLasers;
     public float tempoAtualDosLasers;
-
     public int vidaMaximaDoInimigo;
     public int vidaAtualDoInimigo;
-
-    //public int vidaParaTrocarTiro;
-    // Start is called before the first frame update
+    
     void Start()
     {
         rig = GetComponent<Rigidbody2D>();
@@ -35,7 +30,7 @@ public class Boss : MonoBehaviour
         barraDeVidaDoBoss.value = vidaAtualDoInimigo;
     }
 
-    // Update is called once per frame
+    
     void Update()
     {
         AtirarLaser();
@@ -69,15 +64,6 @@ public class Boss : MonoBehaviour
             Instantiate(laserDoBoss, localDoDisparo.position, Quaternion.Euler(0f, 0f, 90f ));
             tempoAtualDosLasers = tempoMaximoEntreOsLasers;
         }
-       // if (vidaAtualDoInimigo == vidaParaTrocarTiro)
-       // {
-           // if (tempoAtualDosLasers <= 0)
-          //  {
-          //      Instantiate(laserDoBoss2, localDoDisparo.position, Quaternion.Euler(0f, 0f, 90f ));
-            //    tempoAtualDosLasers = tempoMaximoEntreOsLasers;
-           // }
-       // }
-        
         
     }
 
@@ -88,12 +74,6 @@ public class Boss : MonoBehaviour
 
         if (vidaAtualDoInimigo <= 0)
         {
-            //GameManager.Instance.AumentoPontos(darPontos);
-            //int numeroAleatorio = Random.Range(0, 100); //cria variavel que sortea um numero aleatorio para dropar o power up
-            //if (numeroAleatorio <= chanceParaDropar) //porcentagem da chance de dropar power up
-            //{
-            //    Instantiate(itenParaDropar, transform.position, Quaternion.Euler(0f, 0f, 0f));
-           // }
             Destroy(this.gameObject);
         }
     }
@@ -105,10 +85,4 @@ public class Boss : MonoBehaviour
         }
     }
 
-    public void ChamarBoss()
-    {
-        spawn = GameObject.FindWithTag("spawnBoss");
-        Vector2 posicao = this.spawn.transform.position;
-        Instantiate(boss, posicao, quaternion.identity);
-    }
 }
