@@ -134,6 +134,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Lagarto (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 1425752285785811854, guid: 2b9889b40bbd61f428184e62fa47c0be, type: 3}
+      propertyPath: alvo
+      value: 
+      objectReference: {fileID: 1449897592}
+    - target: {fileID: 1425752285785811854, guid: 2b9889b40bbd61f428184e62fa47c0be, type: 3}
+      propertyPath: layerAreaVisao.m_Bits
+      value: 64
+      objectReference: {fileID: 0}
     - target: {fileID: 1425752285785811855, guid: 2b9889b40bbd61f428184e62fa47c0be, type: 3}
       propertyPath: m_RootOrder
       value: 19
@@ -1038,6 +1046,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Lagarto (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 1425752285785811854, guid: 2b9889b40bbd61f428184e62fa47c0be, type: 3}
+      propertyPath: alvo
+      value: 
+      objectReference: {fileID: 1449897592}
+    - target: {fileID: 1425752285785811854, guid: 2b9889b40bbd61f428184e62fa47c0be, type: 3}
+      propertyPath: layerAreaVisao.m_Bits
+      value: 64
+      objectReference: {fileID: 0}
     - target: {fileID: 1425752285785811855, guid: 2b9889b40bbd61f428184e62fa47c0be, type: 3}
       propertyPath: m_RootOrder
       value: 18
@@ -1432,6 +1448,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Lagarto (22)
       objectReference: {fileID: 0}
+    - target: {fileID: 1425752285785811854, guid: 2b9889b40bbd61f428184e62fa47c0be, type: 3}
+      propertyPath: alvo
+      value: 
+      objectReference: {fileID: 1449897592}
+    - target: {fileID: 1425752285785811854, guid: 2b9889b40bbd61f428184e62fa47c0be, type: 3}
+      propertyPath: layerAreaVisao.m_Bits
+      value: 64
+      objectReference: {fileID: 0}
     - target: {fileID: 1425752285785811855, guid: 2b9889b40bbd61f428184e62fa47c0be, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -1810,6 +1834,14 @@ PrefabInstance:
     - target: {fileID: 1425752285785811849, guid: 2b9889b40bbd61f428184e62fa47c0be, type: 3}
       propertyPath: m_Name
       value: Lagarto (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1425752285785811854, guid: 2b9889b40bbd61f428184e62fa47c0be, type: 3}
+      propertyPath: alvo
+      value: 
+      objectReference: {fileID: 1449897592}
+    - target: {fileID: 1425752285785811854, guid: 2b9889b40bbd61f428184e62fa47c0be, type: 3}
+      propertyPath: layerAreaVisao.m_Bits
+      value: 64
       objectReference: {fileID: 0}
     - target: {fileID: 1425752285785811855, guid: 2b9889b40bbd61f428184e62fa47c0be, type: 3}
       propertyPath: m_RootOrder
@@ -2402,7 +2434,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 274468520}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Local Do Disparo Direita
   m_TagString: Untagged
   m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
@@ -2752,6 +2784,14 @@ PrefabInstance:
     - target: {fileID: 1425752285785811849, guid: 2b9889b40bbd61f428184e62fa47c0be, type: 3}
       propertyPath: m_Name
       value: Lagarto
+      objectReference: {fileID: 0}
+    - target: {fileID: 1425752285785811854, guid: 2b9889b40bbd61f428184e62fa47c0be, type: 3}
+      propertyPath: alvo
+      value: 
+      objectReference: {fileID: 1449897592}
+    - target: {fileID: 1425752285785811854, guid: 2b9889b40bbd61f428184e62fa47c0be, type: 3}
+      propertyPath: layerAreaVisao.m_Bits
+      value: 64
       objectReference: {fileID: 0}
     - target: {fileID: 1425752285785811855, guid: 2b9889b40bbd61f428184e62fa47c0be, type: 3}
       propertyPath: m_RootOrder
@@ -4128,7 +4168,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.2098, y: -2.2856, z: -10}
+  m_LocalPosition: {x: 93.81, y: 10.47, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -4276,6 +4316,14 @@ PrefabInstance:
     - target: {fileID: 1425752285785811849, guid: 2b9889b40bbd61f428184e62fa47c0be, type: 3}
       propertyPath: m_Name
       value: Lagarto (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1425752285785811854, guid: 2b9889b40bbd61f428184e62fa47c0be, type: 3}
+      propertyPath: alvo
+      value: 
+      objectReference: {fileID: 1449897592}
+    - target: {fileID: 1425752285785811854, guid: 2b9889b40bbd61f428184e62fa47c0be, type: 3}
+      propertyPath: layerAreaVisao.m_Bits
+      value: 64
       objectReference: {fileID: 0}
     - target: {fileID: 1425752285785811855, guid: 2b9889b40bbd61f428184e62fa47c0be, type: 3}
       propertyPath: m_RootOrder
@@ -6092,6 +6140,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Lagarto (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1425752285785811854, guid: 2b9889b40bbd61f428184e62fa47c0be, type: 3}
+      propertyPath: alvo
+      value: 
+      objectReference: {fileID: 1449897592}
+    - target: {fileID: 1425752285785811854, guid: 2b9889b40bbd61f428184e62fa47c0be, type: 3}
+      propertyPath: layerAreaVisao.m_Bits
+      value: 64
+      objectReference: {fileID: 0}
     - target: {fileID: 1425752285785811855, guid: 2b9889b40bbd61f428184e62fa47c0be, type: 3}
       propertyPath: m_RootOrder
       value: 22
@@ -6548,6 +6604,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Lagarto (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 1425752285785811854, guid: 2b9889b40bbd61f428184e62fa47c0be, type: 3}
+      propertyPath: alvo
+      value: 
+      objectReference: {fileID: 1449897592}
+    - target: {fileID: 1425752285785811854, guid: 2b9889b40bbd61f428184e62fa47c0be, type: 3}
+      propertyPath: layerAreaVisao.m_Bits
+      value: 64
+      objectReference: {fileID: 0}
     - target: {fileID: 1425752285785811855, guid: 2b9889b40bbd61f428184e62fa47c0be, type: 3}
       propertyPath: m_RootOrder
       value: 6
@@ -6804,6 +6868,14 @@ PrefabInstance:
     - target: {fileID: 1425752285785811849, guid: 2b9889b40bbd61f428184e62fa47c0be, type: 3}
       propertyPath: m_Name
       value: Lagarto (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1425752285785811854, guid: 2b9889b40bbd61f428184e62fa47c0be, type: 3}
+      propertyPath: alvo
+      value: 
+      objectReference: {fileID: 1449897592}
+    - target: {fileID: 1425752285785811854, guid: 2b9889b40bbd61f428184e62fa47c0be, type: 3}
+      propertyPath: layerAreaVisao.m_Bits
+      value: 64
       objectReference: {fileID: 0}
     - target: {fileID: 1425752285785811855, guid: 2b9889b40bbd61f428184e62fa47c0be, type: 3}
       propertyPath: m_RootOrder
@@ -7555,6 +7627,14 @@ PrefabInstance:
     - target: {fileID: 1425752285785811849, guid: 2b9889b40bbd61f428184e62fa47c0be, type: 3}
       propertyPath: m_Name
       value: Lagarto (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1425752285785811854, guid: 2b9889b40bbd61f428184e62fa47c0be, type: 3}
+      propertyPath: alvo
+      value: 
+      objectReference: {fileID: 1449897592}
+    - target: {fileID: 1425752285785811854, guid: 2b9889b40bbd61f428184e62fa47c0be, type: 3}
+      propertyPath: layerAreaVisao.m_Bits
+      value: 64
       objectReference: {fileID: 0}
     - target: {fileID: 1425752285785811855, guid: 2b9889b40bbd61f428184e62fa47c0be, type: 3}
       propertyPath: m_RootOrder
@@ -8910,6 +8990,14 @@ PrefabInstance:
     - target: {fileID: 1425752285785811849, guid: 2b9889b40bbd61f428184e62fa47c0be, type: 3}
       propertyPath: m_Name
       value: Lagarto (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1425752285785811854, guid: 2b9889b40bbd61f428184e62fa47c0be, type: 3}
+      propertyPath: alvo
+      value: 
+      objectReference: {fileID: 1449897592}
+    - target: {fileID: 1425752285785811854, guid: 2b9889b40bbd61f428184e62fa47c0be, type: 3}
+      propertyPath: layerAreaVisao.m_Bits
+      value: 64
       objectReference: {fileID: 0}
     - target: {fileID: 1425752285785811855, guid: 2b9889b40bbd61f428184e62fa47c0be, type: 3}
       propertyPath: m_RootOrder
@@ -77681,6 +77769,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Lagarto (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 1425752285785811854, guid: 2b9889b40bbd61f428184e62fa47c0be, type: 3}
+      propertyPath: alvo
+      value: 
+      objectReference: {fileID: 1449897592}
+    - target: {fileID: 1425752285785811854, guid: 2b9889b40bbd61f428184e62fa47c0be, type: 3}
+      propertyPath: layerAreaVisao.m_Bits
+      value: 64
+      objectReference: {fileID: 0}
     - target: {fileID: 1425752285785811855, guid: 2b9889b40bbd61f428184e62fa47c0be, type: 3}
       propertyPath: m_RootOrder
       value: 12
@@ -77931,7 +78027,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1234682370}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Local Do Disparo Esquerda
   m_TagString: Untagged
   m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
@@ -78214,7 +78310,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1250105994}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: LocalDoDisparo
   m_TagString: Untagged
   m_Icon: {fileID: -5397416234189338067, guid: 0000000000000000d000000000000000, type: 0}
@@ -79803,6 +79899,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Lagarto (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 1425752285785811854, guid: 2b9889b40bbd61f428184e62fa47c0be, type: 3}
+      propertyPath: alvo
+      value: 
+      objectReference: {fileID: 1449897592}
+    - target: {fileID: 1425752285785811854, guid: 2b9889b40bbd61f428184e62fa47c0be, type: 3}
+      propertyPath: layerAreaVisao.m_Bits
+      value: 64
+      objectReference: {fileID: 0}
     - target: {fileID: 1425752285785811855, guid: 2b9889b40bbd61f428184e62fa47c0be, type: 3}
       propertyPath: m_RootOrder
       value: 11
@@ -79869,7 +79973,7 @@ GameObject:
   - component: {fileID: 1449897593}
   - component: {fileID: 1449897594}
   - component: {fileID: 1449897595}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Player
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -79988,7 +80092,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1449897588}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.2098, y: -2.2856, z: 0}
+  m_LocalPosition: {x: 93.81, y: 10.47, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -80193,6 +80297,14 @@ PrefabInstance:
     - target: {fileID: 1425752285785811849, guid: 2b9889b40bbd61f428184e62fa47c0be, type: 3}
       propertyPath: m_Name
       value: Lagarto (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1425752285785811854, guid: 2b9889b40bbd61f428184e62fa47c0be, type: 3}
+      propertyPath: alvo
+      value: 
+      objectReference: {fileID: 1449897592}
+    - target: {fileID: 1425752285785811854, guid: 2b9889b40bbd61f428184e62fa47c0be, type: 3}
+      propertyPath: layerAreaVisao.m_Bits
+      value: 64
       objectReference: {fileID: 0}
     - target: {fileID: 1425752285785811855, guid: 2b9889b40bbd61f428184e62fa47c0be, type: 3}
       propertyPath: m_RootOrder
@@ -80503,6 +80615,14 @@ PrefabInstance:
     - target: {fileID: 1425752285785811849, guid: 2b9889b40bbd61f428184e62fa47c0be, type: 3}
       propertyPath: m_Name
       value: Lagarto (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1425752285785811854, guid: 2b9889b40bbd61f428184e62fa47c0be, type: 3}
+      propertyPath: alvo
+      value: 
+      objectReference: {fileID: 1449897592}
+    - target: {fileID: 1425752285785811854, guid: 2b9889b40bbd61f428184e62fa47c0be, type: 3}
+      propertyPath: layerAreaVisao.m_Bits
+      value: 64
       objectReference: {fileID: 0}
     - target: {fileID: 1425752285785811855, guid: 2b9889b40bbd61f428184e62fa47c0be, type: 3}
       propertyPath: m_RootOrder
@@ -105857,6 +105977,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Lagarto (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 1425752285785811854, guid: 2b9889b40bbd61f428184e62fa47c0be, type: 3}
+      propertyPath: alvo
+      value: 
+      objectReference: {fileID: 1449897592}
+    - target: {fileID: 1425752285785811854, guid: 2b9889b40bbd61f428184e62fa47c0be, type: 3}
+      propertyPath: layerAreaVisao.m_Bits
+      value: 64
+      objectReference: {fileID: 0}
     - target: {fileID: 1425752285785811855, guid: 2b9889b40bbd61f428184e62fa47c0be, type: 3}
       propertyPath: m_RootOrder
       value: 7
@@ -105984,6 +106112,14 @@ PrefabInstance:
     - target: {fileID: 1425752285785811849, guid: 2b9889b40bbd61f428184e62fa47c0be, type: 3}
       propertyPath: m_Name
       value: Lagarto (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1425752285785811854, guid: 2b9889b40bbd61f428184e62fa47c0be, type: 3}
+      propertyPath: alvo
+      value: 
+      objectReference: {fileID: 1449897592}
+    - target: {fileID: 1425752285785811854, guid: 2b9889b40bbd61f428184e62fa47c0be, type: 3}
+      propertyPath: layerAreaVisao.m_Bits
+      value: 64
       objectReference: {fileID: 0}
     - target: {fileID: 1425752285785811855, guid: 2b9889b40bbd61f428184e62fa47c0be, type: 3}
       propertyPath: m_RootOrder
@@ -106428,6 +106564,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Lagarto (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 1425752285785811854, guid: 2b9889b40bbd61f428184e62fa47c0be, type: 3}
+      propertyPath: alvo
+      value: 
+      objectReference: {fileID: 1449897592}
+    - target: {fileID: 1425752285785811854, guid: 2b9889b40bbd61f428184e62fa47c0be, type: 3}
+      propertyPath: layerAreaVisao.m_Bits
+      value: 64
+      objectReference: {fileID: 0}
     - target: {fileID: 1425752285785811855, guid: 2b9889b40bbd61f428184e62fa47c0be, type: 3}
       propertyPath: m_RootOrder
       value: 9
@@ -106489,6 +106633,14 @@ PrefabInstance:
     - target: {fileID: 1425752285785811849, guid: 2b9889b40bbd61f428184e62fa47c0be, type: 3}
       propertyPath: m_Name
       value: Lagarto (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1425752285785811854, guid: 2b9889b40bbd61f428184e62fa47c0be, type: 3}
+      propertyPath: alvo
+      value: 
+      objectReference: {fileID: 1449897592}
+    - target: {fileID: 1425752285785811854, guid: 2b9889b40bbd61f428184e62fa47c0be, type: 3}
+      propertyPath: layerAreaVisao.m_Bits
+      value: 64
       objectReference: {fileID: 0}
     - target: {fileID: 1425752285785811855, guid: 2b9889b40bbd61f428184e62fa47c0be, type: 3}
       propertyPath: m_RootOrder
@@ -106619,7 +106771,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1707703364}
   - component: {fileID: 1707703365}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Square
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -106955,6 +107107,14 @@ PrefabInstance:
     - target: {fileID: 1425752285785811849, guid: 2b9889b40bbd61f428184e62fa47c0be, type: 3}
       propertyPath: m_Name
       value: Lagarto (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1425752285785811854, guid: 2b9889b40bbd61f428184e62fa47c0be, type: 3}
+      propertyPath: alvo
+      value: 
+      objectReference: {fileID: 1449897592}
+    - target: {fileID: 1425752285785811854, guid: 2b9889b40bbd61f428184e62fa47c0be, type: 3}
+      propertyPath: layerAreaVisao.m_Bits
+      value: 64
       objectReference: {fileID: 0}
     - target: {fileID: 1425752285785811855, guid: 2b9889b40bbd61f428184e62fa47c0be, type: 3}
       propertyPath: m_RootOrder
@@ -107389,6 +107549,14 @@ PrefabInstance:
     - target: {fileID: 1425752285785811849, guid: 2b9889b40bbd61f428184e62fa47c0be, type: 3}
       propertyPath: m_Name
       value: Lagarto (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1425752285785811854, guid: 2b9889b40bbd61f428184e62fa47c0be, type: 3}
+      propertyPath: alvo
+      value: 
+      objectReference: {fileID: 1449897592}
+    - target: {fileID: 1425752285785811854, guid: 2b9889b40bbd61f428184e62fa47c0be, type: 3}
+      propertyPath: layerAreaVisao.m_Bits
+      value: 64
       objectReference: {fileID: 0}
     - target: {fileID: 1425752285785811855, guid: 2b9889b40bbd61f428184e62fa47c0be, type: 3}
       propertyPath: m_RootOrder
@@ -108154,6 +108322,14 @@ PrefabInstance:
     - target: {fileID: 1425752285785811849, guid: 2b9889b40bbd61f428184e62fa47c0be, type: 3}
       propertyPath: m_Name
       value: Lagarto (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1425752285785811854, guid: 2b9889b40bbd61f428184e62fa47c0be, type: 3}
+      propertyPath: alvo
+      value: 
+      objectReference: {fileID: 1449897592}
+    - target: {fileID: 1425752285785811854, guid: 2b9889b40bbd61f428184e62fa47c0be, type: 3}
+      propertyPath: layerAreaVisao.m_Bits
+      value: 64
       objectReference: {fileID: 0}
     - target: {fileID: 1425752285785811855, guid: 2b9889b40bbd61f428184e62fa47c0be, type: 3}
       propertyPath: m_RootOrder
@@ -109273,7 +109449,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2066314530}
   - component: {fileID: 2066314531}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Escudo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -109805,6 +109981,14 @@ PrefabInstance:
     - target: {fileID: 1425752285785811849, guid: 2b9889b40bbd61f428184e62fa47c0be, type: 3}
       propertyPath: m_Name
       value: Lagarto (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1425752285785811854, guid: 2b9889b40bbd61f428184e62fa47c0be, type: 3}
+      propertyPath: alvo
+      value: 
+      objectReference: {fileID: 1449897592}
+    - target: {fileID: 1425752285785811854, guid: 2b9889b40bbd61f428184e62fa47c0be, type: 3}
+      propertyPath: layerAreaVisao.m_Bits
+      value: 64
       objectReference: {fileID: 0}
     - target: {fileID: 1425752285785811855, guid: 2b9889b40bbd61f428184e62fa47c0be, type: 3}
       propertyPath: m_RootOrder

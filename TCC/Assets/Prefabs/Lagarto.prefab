@@ -79,6 +79,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1dc108ab54bb57a4fbc3ef6bcf58cd6b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  alvo: {fileID: 0}
+  raioVisao: 11
+  layerAreaVisao:
+    serializedVersion: 2
+    m_Bits: 0
   laserDoLagarto: {fileID: 6082036495663909130, guid: 382dc35a1e42a6542a194cea17df80c5, type: 3}
   localDoDisparo: {fileID: 1425752285591420774}
   velocidade: 2

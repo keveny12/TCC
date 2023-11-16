@@ -764,6 +764,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 89.158
       objectReference: {fileID: 0}
+    - target: {fileID: 1581730637232783090, guid: b7db1303156b1314a8ff6ccba77d4dd5, type: 3}
+      propertyPath: alvo
+      value: 
+      objectReference: {fileID: 1449897592}
     - target: {fileID: 1581730637232783100, guid: b7db1303156b1314a8ff6ccba77d4dd5, type: 3}
       propertyPath: m_Name
       value: Inimigo Medio (51)
@@ -888,6 +892,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 89.158
       objectReference: {fileID: 0}
+    - target: {fileID: 1581730637232783090, guid: b7db1303156b1314a8ff6ccba77d4dd5, type: 3}
+      propertyPath: alvo
+      value: 
+      objectReference: {fileID: 1449897592}
     - target: {fileID: 1581730637232783100, guid: b7db1303156b1314a8ff6ccba77d4dd5, type: 3}
       propertyPath: m_Name
       value: Inimigo Medio (15)
@@ -1092,6 +1100,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 89.158
       objectReference: {fileID: 0}
+    - target: {fileID: 1581730637232783090, guid: b7db1303156b1314a8ff6ccba77d4dd5, type: 3}
+      propertyPath: alvo
+      value: 
+      objectReference: {fileID: 1449897592}
     - target: {fileID: 1581730637232783100, guid: b7db1303156b1314a8ff6ccba77d4dd5, type: 3}
       propertyPath: m_Name
       value: Inimigo Medio (2)
@@ -1154,6 +1166,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 89.158
       objectReference: {fileID: 0}
+    - target: {fileID: 1581730637232783090, guid: b7db1303156b1314a8ff6ccba77d4dd5, type: 3}
+      propertyPath: alvo
+      value: 
+      objectReference: {fileID: 1449897592}
     - target: {fileID: 1581730637232783100, guid: b7db1303156b1314a8ff6ccba77d4dd5, type: 3}
       propertyPath: m_Name
       value: Inimigo Medio (5)
@@ -1454,6 +1470,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Lagarto (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 1425752285785811854, guid: 2b9889b40bbd61f428184e62fa47c0be, type: 3}
+      propertyPath: alvo
+      value: 
+      objectReference: {fileID: 1449897592}
+    - target: {fileID: 1425752285785811854, guid: 2b9889b40bbd61f428184e62fa47c0be, type: 3}
+      propertyPath: layerAreaVisao.m_Bits
+      value: 64
+      objectReference: {fileID: 0}
     - target: {fileID: 1425752285785811855, guid: 2b9889b40bbd61f428184e62fa47c0be, type: 3}
       propertyPath: m_RootOrder
       value: 28
@@ -1618,6 +1642,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 89.158
       objectReference: {fileID: 0}
+    - target: {fileID: 1581730637232783090, guid: b7db1303156b1314a8ff6ccba77d4dd5, type: 3}
+      propertyPath: alvo
+      value: 
+      objectReference: {fileID: 1449897592}
     - target: {fileID: 1581730637232783100, guid: b7db1303156b1314a8ff6ccba77d4dd5, type: 3}
       propertyPath: m_Name
       value: Inimigo Medio (6)
@@ -2444,6 +2472,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 89.158
       objectReference: {fileID: 0}
+    - target: {fileID: 1581730637232783090, guid: b7db1303156b1314a8ff6ccba77d4dd5, type: 3}
+      propertyPath: alvo
+      value: 
+      objectReference: {fileID: 1449897592}
     - target: {fileID: 1581730637232783100, guid: b7db1303156b1314a8ff6ccba77d4dd5, type: 3}
       propertyPath: m_Name
       value: Inimigo Medio (8)
@@ -2820,7 +2852,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 274468520}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Local Do Disparo Direita
   m_TagString: Untagged
   m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
@@ -4053,6 +4085,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 89.158
       objectReference: {fileID: 0}
+    - target: {fileID: 1581730637232783090, guid: b7db1303156b1314a8ff6ccba77d4dd5, type: 3}
+      propertyPath: alvo
+      value: 
+      objectReference: {fileID: 1449897592}
     - target: {fileID: 1581730637232783100, guid: b7db1303156b1314a8ff6ccba77d4dd5, type: 3}
       propertyPath: m_Name
       value: Inimigo Medio (29)
@@ -4685,6 +4721,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 89.158
       objectReference: {fileID: 0}
+    - target: {fileID: 1581730637232783090, guid: b7db1303156b1314a8ff6ccba77d4dd5, type: 3}
+      propertyPath: alvo
+      value: 
+      objectReference: {fileID: 1449897592}
     - target: {fileID: 1581730637232783100, guid: b7db1303156b1314a8ff6ccba77d4dd5, type: 3}
       propertyPath: m_Name
       value: Inimigo Medio
@@ -4830,6 +4870,14 @@ PrefabInstance:
     - target: {fileID: 1425752285785811849, guid: 2b9889b40bbd61f428184e62fa47c0be, type: 3}
       propertyPath: m_Name
       value: Lagarto (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1425752285785811854, guid: 2b9889b40bbd61f428184e62fa47c0be, type: 3}
+      propertyPath: alvo
+      value: 
+      objectReference: {fileID: 1449897592}
+    - target: {fileID: 1425752285785811854, guid: 2b9889b40bbd61f428184e62fa47c0be, type: 3}
+      propertyPath: layerAreaVisao.m_Bits
+      value: 64
       objectReference: {fileID: 0}
     - target: {fileID: 1425752285785811855, guid: 2b9889b40bbd61f428184e62fa47c0be, type: 3}
       propertyPath: m_RootOrder
@@ -5207,6 +5255,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 89.158
       objectReference: {fileID: 0}
+    - target: {fileID: 1581730637232783090, guid: b7db1303156b1314a8ff6ccba77d4dd5, type: 3}
+      propertyPath: alvo
+      value: 
+      objectReference: {fileID: 1449897592}
     - target: {fileID: 1581730637232783100, guid: b7db1303156b1314a8ff6ccba77d4dd5, type: 3}
       propertyPath: m_Name
       value: Inimigo Medio (25)
@@ -5644,6 +5696,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 89.158
       objectReference: {fileID: 0}
+    - target: {fileID: 1581730637232783090, guid: b7db1303156b1314a8ff6ccba77d4dd5, type: 3}
+      propertyPath: alvo
+      value: 
+      objectReference: {fileID: 1449897592}
     - target: {fileID: 1581730637232783100, guid: b7db1303156b1314a8ff6ccba77d4dd5, type: 3}
       propertyPath: m_Name
       value: Inimigo Medio (11)
@@ -5665,6 +5721,14 @@ PrefabInstance:
     - target: {fileID: 1425752285785811849, guid: 2b9889b40bbd61f428184e62fa47c0be, type: 3}
       propertyPath: m_Name
       value: Lagarto (30)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1425752285785811854, guid: 2b9889b40bbd61f428184e62fa47c0be, type: 3}
+      propertyPath: alvo
+      value: 
+      objectReference: {fileID: 1449897592}
+    - target: {fileID: 1425752285785811854, guid: 2b9889b40bbd61f428184e62fa47c0be, type: 3}
+      propertyPath: layerAreaVisao.m_Bits
+      value: 64
       objectReference: {fileID: 0}
     - target: {fileID: 1425752285785811855, guid: 2b9889b40bbd61f428184e62fa47c0be, type: 3}
       propertyPath: m_RootOrder
@@ -5768,6 +5832,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 89.158
       objectReference: {fileID: 0}
+    - target: {fileID: 1581730637232783090, guid: b7db1303156b1314a8ff6ccba77d4dd5, type: 3}
+      propertyPath: alvo
+      value: 
+      objectReference: {fileID: 1449897592}
     - target: {fileID: 1581730637232783100, guid: b7db1303156b1314a8ff6ccba77d4dd5, type: 3}
       propertyPath: m_Name
       value: Inimigo Medio (41)
@@ -5914,6 +5982,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Lagarto (29)
       objectReference: {fileID: 0}
+    - target: {fileID: 1425752285785811854, guid: 2b9889b40bbd61f428184e62fa47c0be, type: 3}
+      propertyPath: alvo
+      value: 
+      objectReference: {fileID: 1449897592}
+    - target: {fileID: 1425752285785811854, guid: 2b9889b40bbd61f428184e62fa47c0be, type: 3}
+      propertyPath: layerAreaVisao.m_Bits
+      value: 64
+      objectReference: {fileID: 0}
     - target: {fileID: 1425752285785811855, guid: 2b9889b40bbd61f428184e62fa47c0be, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -6016,6 +6092,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 89.158
       objectReference: {fileID: 0}
+    - target: {fileID: 1581730637232783090, guid: b7db1303156b1314a8ff6ccba77d4dd5, type: 3}
+      propertyPath: alvo
+      value: 
+      objectReference: {fileID: 1449897592}
     - target: {fileID: 1581730637232783100, guid: b7db1303156b1314a8ff6ccba77d4dd5, type: 3}
       propertyPath: m_Name
       value: Inimigo Medio (37)
@@ -6117,6 +6197,14 @@ PrefabInstance:
     - target: {fileID: 1425752285785811849, guid: 2b9889b40bbd61f428184e62fa47c0be, type: 3}
       propertyPath: m_Name
       value: Lagarto (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1425752285785811854, guid: 2b9889b40bbd61f428184e62fa47c0be, type: 3}
+      propertyPath: alvo
+      value: 
+      objectReference: {fileID: 1449897592}
+    - target: {fileID: 1425752285785811854, guid: 2b9889b40bbd61f428184e62fa47c0be, type: 3}
+      propertyPath: layerAreaVisao.m_Bits
+      value: 64
       objectReference: {fileID: 0}
     - target: {fileID: 1425752285785811855, guid: 2b9889b40bbd61f428184e62fa47c0be, type: 3}
       propertyPath: m_RootOrder
@@ -6362,6 +6450,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 89.158
       objectReference: {fileID: 0}
+    - target: {fileID: 1581730637232783090, guid: b7db1303156b1314a8ff6ccba77d4dd5, type: 3}
+      propertyPath: alvo
+      value: 
+      objectReference: {fileID: 1449897592}
     - target: {fileID: 1581730637232783100, guid: b7db1303156b1314a8ff6ccba77d4dd5, type: 3}
       propertyPath: m_Name
       value: Inimigo Medio (30)
@@ -6686,6 +6778,14 @@ PrefabInstance:
     - target: {fileID: 1425752285785811849, guid: 2b9889b40bbd61f428184e62fa47c0be, type: 3}
       propertyPath: m_Name
       value: Lagarto (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1425752285785811854, guid: 2b9889b40bbd61f428184e62fa47c0be, type: 3}
+      propertyPath: alvo
+      value: 
+      objectReference: {fileID: 1449897592}
+    - target: {fileID: 1425752285785811854, guid: 2b9889b40bbd61f428184e62fa47c0be, type: 3}
+      propertyPath: layerAreaVisao.m_Bits
+      value: 64
       objectReference: {fileID: 0}
     - target: {fileID: 1425752285785811855, guid: 2b9889b40bbd61f428184e62fa47c0be, type: 3}
       propertyPath: m_RootOrder
@@ -7170,6 +7270,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Lagarto (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 1425752285785811854, guid: 2b9889b40bbd61f428184e62fa47c0be, type: 3}
+      propertyPath: alvo
+      value: 
+      objectReference: {fileID: 1449897592}
+    - target: {fileID: 1425752285785811854, guid: 2b9889b40bbd61f428184e62fa47c0be, type: 3}
+      propertyPath: layerAreaVisao.m_Bits
+      value: 64
+      objectReference: {fileID: 0}
     - target: {fileID: 1425752285785811855, guid: 2b9889b40bbd61f428184e62fa47c0be, type: 3}
       propertyPath: m_RootOrder
       value: 26
@@ -7272,6 +7380,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 89.158
       objectReference: {fileID: 0}
+    - target: {fileID: 1581730637232783090, guid: b7db1303156b1314a8ff6ccba77d4dd5, type: 3}
+      propertyPath: alvo
+      value: 
+      objectReference: {fileID: 1449897592}
     - target: {fileID: 1581730637232783100, guid: b7db1303156b1314a8ff6ccba77d4dd5, type: 3}
       propertyPath: m_Name
       value: Inimigo Medio (45)
@@ -7458,6 +7570,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 89.158
       objectReference: {fileID: 0}
+    - target: {fileID: 1581730637232783090, guid: b7db1303156b1314a8ff6ccba77d4dd5, type: 3}
+      propertyPath: alvo
+      value: 
+      objectReference: {fileID: 1449897592}
     - target: {fileID: 1581730637232783100, guid: b7db1303156b1314a8ff6ccba77d4dd5, type: 3}
       propertyPath: m_Name
       value: Inimigo Medio (7)
@@ -7520,6 +7636,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 89.158
       objectReference: {fileID: 0}
+    - target: {fileID: 1581730637232783090, guid: b7db1303156b1314a8ff6ccba77d4dd5, type: 3}
+      propertyPath: alvo
+      value: 
+      objectReference: {fileID: 1449897592}
     - target: {fileID: 1581730637232783100, guid: b7db1303156b1314a8ff6ccba77d4dd5, type: 3}
       propertyPath: m_Name
       value: Inimigo Medio (27)
@@ -7644,6 +7764,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 89.158
       objectReference: {fileID: 0}
+    - target: {fileID: 1581730637232783090, guid: b7db1303156b1314a8ff6ccba77d4dd5, type: 3}
+      propertyPath: alvo
+      value: 
+      objectReference: {fileID: 1449897592}
     - target: {fileID: 1581730637232783100, guid: b7db1303156b1314a8ff6ccba77d4dd5, type: 3}
       propertyPath: m_Name
       value: Inimigo Medio (50)
@@ -7768,6 +7892,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 89.158
       objectReference: {fileID: 0}
+    - target: {fileID: 1581730637232783090, guid: b7db1303156b1314a8ff6ccba77d4dd5, type: 3}
+      propertyPath: alvo
+      value: 
+      objectReference: {fileID: 1449897592}
     - target: {fileID: 1581730637232783100, guid: b7db1303156b1314a8ff6ccba77d4dd5, type: 3}
       propertyPath: m_Name
       value: Inimigo Medio (19)
@@ -8062,6 +8190,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 89.158
       objectReference: {fileID: 0}
+    - target: {fileID: 1581730637232783090, guid: b7db1303156b1314a8ff6ccba77d4dd5, type: 3}
+      propertyPath: alvo
+      value: 
+      objectReference: {fileID: 1449897592}
     - target: {fileID: 1581730637232783100, guid: b7db1303156b1314a8ff6ccba77d4dd5, type: 3}
       propertyPath: m_Name
       value: Inimigo Medio (32)
@@ -8145,6 +8277,14 @@ PrefabInstance:
     - target: {fileID: 1425752285785811849, guid: 2b9889b40bbd61f428184e62fa47c0be, type: 3}
       propertyPath: m_Name
       value: Lagarto (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1425752285785811854, guid: 2b9889b40bbd61f428184e62fa47c0be, type: 3}
+      propertyPath: alvo
+      value: 
+      objectReference: {fileID: 1449897592}
+    - target: {fileID: 1425752285785811854, guid: 2b9889b40bbd61f428184e62fa47c0be, type: 3}
+      propertyPath: layerAreaVisao.m_Bits
+      value: 64
       objectReference: {fileID: 0}
     - target: {fileID: 1425752285785811855, guid: 2b9889b40bbd61f428184e62fa47c0be, type: 3}
       propertyPath: m_RootOrder
@@ -8590,6 +8730,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 89.158
       objectReference: {fileID: 0}
+    - target: {fileID: 1581730637232783090, guid: b7db1303156b1314a8ff6ccba77d4dd5, type: 3}
+      propertyPath: alvo
+      value: 
+      objectReference: {fileID: 1449897592}
     - target: {fileID: 1581730637232783100, guid: b7db1303156b1314a8ff6ccba77d4dd5, type: 3}
       propertyPath: m_Name
       value: Inimigo Medio (47)
@@ -8611,6 +8755,14 @@ PrefabInstance:
     - target: {fileID: 1425752285785811849, guid: 2b9889b40bbd61f428184e62fa47c0be, type: 3}
       propertyPath: m_Name
       value: Lagarto (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1425752285785811854, guid: 2b9889b40bbd61f428184e62fa47c0be, type: 3}
+      propertyPath: alvo
+      value: 
+      objectReference: {fileID: 1449897592}
+    - target: {fileID: 1425752285785811854, guid: 2b9889b40bbd61f428184e62fa47c0be, type: 3}
+      propertyPath: layerAreaVisao.m_Bits
+      value: 64
       objectReference: {fileID: 0}
     - target: {fileID: 1425752285785811855, guid: 2b9889b40bbd61f428184e62fa47c0be, type: 3}
       propertyPath: m_RootOrder
@@ -8798,6 +8950,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Lagarto (24)
       objectReference: {fileID: 0}
+    - target: {fileID: 1425752285785811854, guid: 2b9889b40bbd61f428184e62fa47c0be, type: 3}
+      propertyPath: alvo
+      value: 
+      objectReference: {fileID: 1449897592}
+    - target: {fileID: 1425752285785811854, guid: 2b9889b40bbd61f428184e62fa47c0be, type: 3}
+      propertyPath: layerAreaVisao.m_Bits
+      value: 64
+      objectReference: {fileID: 0}
     - target: {fileID: 1425752285785811855, guid: 2b9889b40bbd61f428184e62fa47c0be, type: 3}
       propertyPath: m_RootOrder
       value: 8
@@ -8964,6 +9124,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 89.158
       objectReference: {fileID: 0}
+    - target: {fileID: 1581730637232783090, guid: b7db1303156b1314a8ff6ccba77d4dd5, type: 3}
+      propertyPath: alvo
+      value: 
+      objectReference: {fileID: 1449897592}
     - target: {fileID: 1581730637232783100, guid: b7db1303156b1314a8ff6ccba77d4dd5, type: 3}
       propertyPath: m_Name
       value: Inimigo Medio (12)
@@ -9470,6 +9634,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 89.158
       objectReference: {fileID: 0}
+    - target: {fileID: 1581730637232783090, guid: b7db1303156b1314a8ff6ccba77d4dd5, type: 3}
+      propertyPath: alvo
+      value: 
+      objectReference: {fileID: 1449897592}
     - target: {fileID: 1581730637232783100, guid: b7db1303156b1314a8ff6ccba77d4dd5, type: 3}
       propertyPath: m_Name
       value: Inimigo Medio (10)
@@ -9656,6 +9824,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 89.158
       objectReference: {fileID: 0}
+    - target: {fileID: 1581730637232783090, guid: b7db1303156b1314a8ff6ccba77d4dd5, type: 3}
+      propertyPath: alvo
+      value: 
+      objectReference: {fileID: 1449897592}
     - target: {fileID: 1581730637232783100, guid: b7db1303156b1314a8ff6ccba77d4dd5, type: 3}
       propertyPath: m_Name
       value: Inimigo Medio (23)
@@ -9897,6 +10069,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Lagarto (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 1425752285785811854, guid: 2b9889b40bbd61f428184e62fa47c0be, type: 3}
+      propertyPath: alvo
+      value: 
+      objectReference: {fileID: 1449897592}
+    - target: {fileID: 1425752285785811854, guid: 2b9889b40bbd61f428184e62fa47c0be, type: 3}
+      propertyPath: layerAreaVisao.m_Bits
+      value: 64
+      objectReference: {fileID: 0}
     - target: {fileID: 1425752285785811855, guid: 2b9889b40bbd61f428184e62fa47c0be, type: 3}
       propertyPath: m_RootOrder
       value: 24
@@ -9958,6 +10138,14 @@ PrefabInstance:
     - target: {fileID: 1425752285785811849, guid: 2b9889b40bbd61f428184e62fa47c0be, type: 3}
       propertyPath: m_Name
       value: Lagarto (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1425752285785811854, guid: 2b9889b40bbd61f428184e62fa47c0be, type: 3}
+      propertyPath: alvo
+      value: 
+      objectReference: {fileID: 1449897592}
+    - target: {fileID: 1425752285785811854, guid: 2b9889b40bbd61f428184e62fa47c0be, type: 3}
+      propertyPath: layerAreaVisao.m_Bits
+      value: 64
       objectReference: {fileID: 0}
     - target: {fileID: 1425752285785811855, guid: 2b9889b40bbd61f428184e62fa47c0be, type: 3}
       propertyPath: m_RootOrder
@@ -10466,6 +10654,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 89.158
       objectReference: {fileID: 0}
+    - target: {fileID: 1581730637232783090, guid: b7db1303156b1314a8ff6ccba77d4dd5, type: 3}
+      propertyPath: alvo
+      value: 
+      objectReference: {fileID: 1449897592}
     - target: {fileID: 1581730637232783100, guid: b7db1303156b1314a8ff6ccba77d4dd5, type: 3}
       propertyPath: m_Name
       value: Inimigo Medio (40)
@@ -10487,6 +10679,14 @@ PrefabInstance:
     - target: {fileID: 1425752285785811849, guid: 2b9889b40bbd61f428184e62fa47c0be, type: 3}
       propertyPath: m_Name
       value: Lagarto (31)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1425752285785811854, guid: 2b9889b40bbd61f428184e62fa47c0be, type: 3}
+      propertyPath: alvo
+      value: 
+      objectReference: {fileID: 1449897592}
+    - target: {fileID: 1425752285785811854, guid: 2b9889b40bbd61f428184e62fa47c0be, type: 3}
+      propertyPath: layerAreaVisao.m_Bits
+      value: 64
       objectReference: {fileID: 0}
     - target: {fileID: 1425752285785811855, guid: 2b9889b40bbd61f428184e62fa47c0be, type: 3}
       propertyPath: m_RootOrder
@@ -10652,6 +10852,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 89.158
       objectReference: {fileID: 0}
+    - target: {fileID: 1581730637232783090, guid: b7db1303156b1314a8ff6ccba77d4dd5, type: 3}
+      propertyPath: alvo
+      value: 
+      objectReference: {fileID: 1449897592}
     - target: {fileID: 1581730637232783100, guid: b7db1303156b1314a8ff6ccba77d4dd5, type: 3}
       propertyPath: m_Name
       value: Inimigo Medio (9)
@@ -10673,6 +10877,14 @@ PrefabInstance:
     - target: {fileID: 1425752285785811849, guid: 2b9889b40bbd61f428184e62fa47c0be, type: 3}
       propertyPath: m_Name
       value: Lagarto (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1425752285785811854, guid: 2b9889b40bbd61f428184e62fa47c0be, type: 3}
+      propertyPath: alvo
+      value: 
+      objectReference: {fileID: 1449897592}
+    - target: {fileID: 1425752285785811854, guid: 2b9889b40bbd61f428184e62fa47c0be, type: 3}
+      propertyPath: layerAreaVisao.m_Bits
+      value: 64
       objectReference: {fileID: 0}
     - target: {fileID: 1425752285785811855, guid: 2b9889b40bbd61f428184e62fa47c0be, type: 3}
       propertyPath: m_RootOrder
@@ -11476,6 +11688,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 89.158
       objectReference: {fileID: 0}
+    - target: {fileID: 1581730637232783090, guid: b7db1303156b1314a8ff6ccba77d4dd5, type: 3}
+      propertyPath: alvo
+      value: 
+      objectReference: {fileID: 1449897592}
     - target: {fileID: 1581730637232783100, guid: b7db1303156b1314a8ff6ccba77d4dd5, type: 3}
       propertyPath: m_Name
       value: Inimigo Medio (43)
@@ -11538,6 +11754,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 89.158
       objectReference: {fileID: 0}
+    - target: {fileID: 1581730637232783090, guid: b7db1303156b1314a8ff6ccba77d4dd5, type: 3}
+      propertyPath: alvo
+      value: 
+      objectReference: {fileID: 1449897592}
     - target: {fileID: 1581730637232783100, guid: b7db1303156b1314a8ff6ccba77d4dd5, type: 3}
       propertyPath: m_Name
       value: Inimigo Medio (44)
@@ -11559,6 +11779,14 @@ PrefabInstance:
     - target: {fileID: 1425752285785811849, guid: 2b9889b40bbd61f428184e62fa47c0be, type: 3}
       propertyPath: m_Name
       value: Lagarto (25)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1425752285785811854, guid: 2b9889b40bbd61f428184e62fa47c0be, type: 3}
+      propertyPath: alvo
+      value: 
+      objectReference: {fileID: 1449897592}
+    - target: {fileID: 1425752285785811854, guid: 2b9889b40bbd61f428184e62fa47c0be, type: 3}
+      propertyPath: layerAreaVisao.m_Bits
+      value: 64
       objectReference: {fileID: 0}
     - target: {fileID: 1425752285785811855, guid: 2b9889b40bbd61f428184e62fa47c0be, type: 3}
       propertyPath: m_RootOrder
@@ -32631,6 +32859,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 89.158
       objectReference: {fileID: 0}
+    - target: {fileID: 1581730637232783090, guid: b7db1303156b1314a8ff6ccba77d4dd5, type: 3}
+      propertyPath: alvo
+      value: 
+      objectReference: {fileID: 1449897592}
     - target: {fileID: 1581730637232783100, guid: b7db1303156b1314a8ff6ccba77d4dd5, type: 3}
       propertyPath: m_Name
       value: Inimigo Medio (35)
@@ -32652,6 +32884,14 @@ PrefabInstance:
     - target: {fileID: 1425752285785811849, guid: 2b9889b40bbd61f428184e62fa47c0be, type: 3}
       propertyPath: m_Name
       value: Lagarto (26)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1425752285785811854, guid: 2b9889b40bbd61f428184e62fa47c0be, type: 3}
+      propertyPath: alvo
+      value: 
+      objectReference: {fileID: 1449897592}
+    - target: {fileID: 1425752285785811854, guid: 2b9889b40bbd61f428184e62fa47c0be, type: 3}
+      propertyPath: layerAreaVisao.m_Bits
+      value: 64
       objectReference: {fileID: 0}
     - target: {fileID: 1425752285785811855, guid: 2b9889b40bbd61f428184e62fa47c0be, type: 3}
       propertyPath: m_RootOrder
@@ -32985,6 +33225,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Lagarto (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 1425752285785811854, guid: 2b9889b40bbd61f428184e62fa47c0be, type: 3}
+      propertyPath: alvo
+      value: 
+      objectReference: {fileID: 1449897592}
+    - target: {fileID: 1425752285785811854, guid: 2b9889b40bbd61f428184e62fa47c0be, type: 3}
+      propertyPath: layerAreaVisao.m_Bits
+      value: 64
+      objectReference: {fileID: 0}
     - target: {fileID: 1425752285785811855, guid: 2b9889b40bbd61f428184e62fa47c0be, type: 3}
       propertyPath: m_RootOrder
       value: 13
@@ -33087,6 +33335,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 89.158
       objectReference: {fileID: 0}
+    - target: {fileID: 1581730637232783090, guid: b7db1303156b1314a8ff6ccba77d4dd5, type: 3}
+      propertyPath: alvo
+      value: 
+      objectReference: {fileID: 1449897592}
     - target: {fileID: 1581730637232783100, guid: b7db1303156b1314a8ff6ccba77d4dd5, type: 3}
       propertyPath: m_Name
       value: Inimigo Medio (21)
@@ -33273,6 +33525,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 89.158
       objectReference: {fileID: 0}
+    - target: {fileID: 1581730637232783090, guid: b7db1303156b1314a8ff6ccba77d4dd5, type: 3}
+      propertyPath: alvo
+      value: 
+      objectReference: {fileID: 1449897592}
     - target: {fileID: 1581730637232783100, guid: b7db1303156b1314a8ff6ccba77d4dd5, type: 3}
       propertyPath: m_Name
       value: Inimigo Medio (34)
@@ -33335,6 +33591,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 89.158
       objectReference: {fileID: 0}
+    - target: {fileID: 1581730637232783090, guid: b7db1303156b1314a8ff6ccba77d4dd5, type: 3}
+      propertyPath: alvo
+      value: 
+      objectReference: {fileID: 1449897592}
     - target: {fileID: 1581730637232783100, guid: b7db1303156b1314a8ff6ccba77d4dd5, type: 3}
       propertyPath: m_Name
       value: Inimigo Medio (48)
@@ -33356,6 +33616,14 @@ PrefabInstance:
     - target: {fileID: 1425752285785811849, guid: 2b9889b40bbd61f428184e62fa47c0be, type: 3}
       propertyPath: m_Name
       value: Lagarto (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1425752285785811854, guid: 2b9889b40bbd61f428184e62fa47c0be, type: 3}
+      propertyPath: alvo
+      value: 
+      objectReference: {fileID: 1449897592}
+    - target: {fileID: 1425752285785811854, guid: 2b9889b40bbd61f428184e62fa47c0be, type: 3}
+      propertyPath: layerAreaVisao.m_Bits
+      value: 64
       objectReference: {fileID: 0}
     - target: {fileID: 1425752285785811855, guid: 2b9889b40bbd61f428184e62fa47c0be, type: 3}
       propertyPath: m_RootOrder
@@ -33603,7 +33871,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1234682370}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Local Do Disparo Esquerda
   m_TagString: Untagged
   m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
@@ -33635,6 +33903,14 @@ PrefabInstance:
     - target: {fileID: 1425752285785811849, guid: 2b9889b40bbd61f428184e62fa47c0be, type: 3}
       propertyPath: m_Name
       value: Lagarto (28)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1425752285785811854, guid: 2b9889b40bbd61f428184e62fa47c0be, type: 3}
+      propertyPath: alvo
+      value: 
+      objectReference: {fileID: 1449897592}
+    - target: {fileID: 1425752285785811854, guid: 2b9889b40bbd61f428184e62fa47c0be, type: 3}
+      propertyPath: layerAreaVisao.m_Bits
+      value: 64
       objectReference: {fileID: 0}
     - target: {fileID: 1425752285785811855, guid: 2b9889b40bbd61f428184e62fa47c0be, type: 3}
       propertyPath: m_RootOrder
@@ -33758,7 +34034,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1250105994}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: LocalDoDisparo
   m_TagString: Untagged
   m_Icon: {fileID: -5397416234189338067, guid: 0000000000000000d000000000000000, type: 0}
@@ -33915,6 +34191,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Lagarto (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 1425752285785811854, guid: 2b9889b40bbd61f428184e62fa47c0be, type: 3}
+      propertyPath: alvo
+      value: 
+      objectReference: {fileID: 1449897592}
+    - target: {fileID: 1425752285785811854, guid: 2b9889b40bbd61f428184e62fa47c0be, type: 3}
+      propertyPath: layerAreaVisao.m_Bits
+      value: 64
+      objectReference: {fileID: 0}
     - target: {fileID: 1425752285785811855, guid: 2b9889b40bbd61f428184e62fa47c0be, type: 3}
       propertyPath: m_RootOrder
       value: 17
@@ -34039,6 +34323,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Lagarto (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 1425752285785811854, guid: 2b9889b40bbd61f428184e62fa47c0be, type: 3}
+      propertyPath: alvo
+      value: 
+      objectReference: {fileID: 1449897592}
+    - target: {fileID: 1425752285785811854, guid: 2b9889b40bbd61f428184e62fa47c0be, type: 3}
+      propertyPath: layerAreaVisao.m_Bits
+      value: 64
+      objectReference: {fileID: 0}
     - target: {fileID: 1425752285785811855, guid: 2b9889b40bbd61f428184e62fa47c0be, type: 3}
       propertyPath: m_RootOrder
       value: 20
@@ -34141,6 +34433,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 89.158
       objectReference: {fileID: 0}
+    - target: {fileID: 1581730637232783090, guid: b7db1303156b1314a8ff6ccba77d4dd5, type: 3}
+      propertyPath: alvo
+      value: 
+      objectReference: {fileID: 1449897592}
     - target: {fileID: 1581730637232783100, guid: b7db1303156b1314a8ff6ccba77d4dd5, type: 3}
       propertyPath: m_Name
       value: Inimigo Medio (18)
@@ -34265,6 +34561,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 89.158
       objectReference: {fileID: 0}
+    - target: {fileID: 1581730637232783090, guid: b7db1303156b1314a8ff6ccba77d4dd5, type: 3}
+      propertyPath: alvo
+      value: 
+      objectReference: {fileID: 1449897592}
     - target: {fileID: 1581730637232783100, guid: b7db1303156b1314a8ff6ccba77d4dd5, type: 3}
       propertyPath: m_Name
       value: Inimigo Medio (17)
@@ -34327,6 +34627,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 89.158
       objectReference: {fileID: 0}
+    - target: {fileID: 1581730637232783090, guid: b7db1303156b1314a8ff6ccba77d4dd5, type: 3}
+      propertyPath: alvo
+      value: 
+      objectReference: {fileID: 1449897592}
     - target: {fileID: 1581730637232783100, guid: b7db1303156b1314a8ff6ccba77d4dd5, type: 3}
       propertyPath: m_Name
       value: Inimigo Medio (4)
@@ -34451,6 +34755,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 89.158
       objectReference: {fileID: 0}
+    - target: {fileID: 1581730637232783090, guid: b7db1303156b1314a8ff6ccba77d4dd5, type: 3}
+      propertyPath: alvo
+      value: 
+      objectReference: {fileID: 1449897592}
     - target: {fileID: 1581730637232783100, guid: b7db1303156b1314a8ff6ccba77d4dd5, type: 3}
       propertyPath: m_Name
       value: Inimigo Medio (28)
@@ -34472,6 +34780,14 @@ PrefabInstance:
     - target: {fileID: 1425752285785811849, guid: 2b9889b40bbd61f428184e62fa47c0be, type: 3}
       propertyPath: m_Name
       value: Lagarto (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1425752285785811854, guid: 2b9889b40bbd61f428184e62fa47c0be, type: 3}
+      propertyPath: alvo
+      value: 
+      objectReference: {fileID: 1449897592}
+    - target: {fileID: 1425752285785811854, guid: 2b9889b40bbd61f428184e62fa47c0be, type: 3}
+      propertyPath: layerAreaVisao.m_Bits
+      value: 64
       objectReference: {fileID: 0}
     - target: {fileID: 1425752285785811855, guid: 2b9889b40bbd61f428184e62fa47c0be, type: 3}
       propertyPath: m_RootOrder
@@ -34597,6 +34913,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Lagarto (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1425752285785811854, guid: 2b9889b40bbd61f428184e62fa47c0be, type: 3}
+      propertyPath: alvo
+      value: 
+      objectReference: {fileID: 1449897592}
+    - target: {fileID: 1425752285785811854, guid: 2b9889b40bbd61f428184e62fa47c0be, type: 3}
+      propertyPath: layerAreaVisao.m_Bits
+      value: 64
+      objectReference: {fileID: 0}
     - target: {fileID: 1425752285785811855, guid: 2b9889b40bbd61f428184e62fa47c0be, type: 3}
       propertyPath: m_RootOrder
       value: 30
@@ -34699,6 +35023,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 89.158
       objectReference: {fileID: 0}
+    - target: {fileID: 1581730637232783090, guid: b7db1303156b1314a8ff6ccba77d4dd5, type: 3}
+      propertyPath: alvo
+      value: 
+      objectReference: {fileID: 1449897592}
     - target: {fileID: 1581730637232783100, guid: b7db1303156b1314a8ff6ccba77d4dd5, type: 3}
       propertyPath: m_Name
       value: Inimigo Medio (13)
@@ -34720,6 +35048,14 @@ PrefabInstance:
     - target: {fileID: 1425752285785811849, guid: 2b9889b40bbd61f428184e62fa47c0be, type: 3}
       propertyPath: m_Name
       value: Lagarto (27)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1425752285785811854, guid: 2b9889b40bbd61f428184e62fa47c0be, type: 3}
+      propertyPath: alvo
+      value: 
+      objectReference: {fileID: 1449897592}
+    - target: {fileID: 1425752285785811854, guid: 2b9889b40bbd61f428184e62fa47c0be, type: 3}
+      propertyPath: layerAreaVisao.m_Bits
+      value: 64
       objectReference: {fileID: 0}
     - target: {fileID: 1425752285785811855, guid: 2b9889b40bbd61f428184e62fa47c0be, type: 3}
       propertyPath: m_RootOrder
@@ -34782,6 +35118,14 @@ PrefabInstance:
     - target: {fileID: 1425752285785811849, guid: 2b9889b40bbd61f428184e62fa47c0be, type: 3}
       propertyPath: m_Name
       value: Lagarto (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1425752285785811854, guid: 2b9889b40bbd61f428184e62fa47c0be, type: 3}
+      propertyPath: alvo
+      value: 
+      objectReference: {fileID: 1449897592}
+    - target: {fileID: 1425752285785811854, guid: 2b9889b40bbd61f428184e62fa47c0be, type: 3}
+      propertyPath: layerAreaVisao.m_Bits
+      value: 64
       objectReference: {fileID: 0}
     - target: {fileID: 1425752285785811855, guid: 2b9889b40bbd61f428184e62fa47c0be, type: 3}
       propertyPath: m_RootOrder
@@ -34968,6 +35312,14 @@ PrefabInstance:
     - target: {fileID: 1425752285785811849, guid: 2b9889b40bbd61f428184e62fa47c0be, type: 3}
       propertyPath: m_Name
       value: Lagarto (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1425752285785811854, guid: 2b9889b40bbd61f428184e62fa47c0be, type: 3}
+      propertyPath: alvo
+      value: 
+      objectReference: {fileID: 1449897592}
+    - target: {fileID: 1425752285785811854, guid: 2b9889b40bbd61f428184e62fa47c0be, type: 3}
+      propertyPath: layerAreaVisao.m_Bits
+      value: 64
       objectReference: {fileID: 0}
     - target: {fileID: 1425752285785811855, guid: 2b9889b40bbd61f428184e62fa47c0be, type: 3}
       propertyPath: m_RootOrder
@@ -35297,7 +35649,7 @@ GameObject:
   - component: {fileID: 1449897593}
   - component: {fileID: 1449897594}
   - component: {fileID: 1449897595}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Player
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -35493,6 +35845,14 @@ PrefabInstance:
     - target: {fileID: 1425752285785811849, guid: 2b9889b40bbd61f428184e62fa47c0be, type: 3}
       propertyPath: m_Name
       value: Lagarto (23)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1425752285785811854, guid: 2b9889b40bbd61f428184e62fa47c0be, type: 3}
+      propertyPath: alvo
+      value: 
+      objectReference: {fileID: 1449897592}
+    - target: {fileID: 1425752285785811854, guid: 2b9889b40bbd61f428184e62fa47c0be, type: 3}
+      propertyPath: layerAreaVisao.m_Bits
+      value: 64
       objectReference: {fileID: 0}
     - target: {fileID: 1425752285785811855, guid: 2b9889b40bbd61f428184e62fa47c0be, type: 3}
       propertyPath: m_RootOrder
@@ -35952,6 +36312,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 89.158
       objectReference: {fileID: 0}
+    - target: {fileID: 1581730637232783090, guid: b7db1303156b1314a8ff6ccba77d4dd5, type: 3}
+      propertyPath: alvo
+      value: 
+      objectReference: {fileID: 1449897592}
     - target: {fileID: 1581730637232783100, guid: b7db1303156b1314a8ff6ccba77d4dd5, type: 3}
       propertyPath: m_Name
       value: Inimigo Medio (1)
@@ -36138,6 +36502,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 89.158
       objectReference: {fileID: 0}
+    - target: {fileID: 1581730637232783090, guid: b7db1303156b1314a8ff6ccba77d4dd5, type: 3}
+      propertyPath: alvo
+      value: 
+      objectReference: {fileID: 1449897592}
     - target: {fileID: 1581730637232783100, guid: b7db1303156b1314a8ff6ccba77d4dd5, type: 3}
       propertyPath: m_Name
       value: Inimigo Medio (36)
@@ -36338,6 +36706,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 89.158
       objectReference: {fileID: 0}
+    - target: {fileID: 1581730637232783090, guid: b7db1303156b1314a8ff6ccba77d4dd5, type: 3}
+      propertyPath: alvo
+      value: 
+      objectReference: {fileID: 1449897592}
     - target: {fileID: 1581730637232783100, guid: b7db1303156b1314a8ff6ccba77d4dd5, type: 3}
       propertyPath: m_Name
       value: Inimigo Medio (14)
@@ -76329,6 +76701,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Lagarto (20)
       objectReference: {fileID: 0}
+    - target: {fileID: 1425752285785811854, guid: 2b9889b40bbd61f428184e62fa47c0be, type: 3}
+      propertyPath: alvo
+      value: 
+      objectReference: {fileID: 1449897592}
+    - target: {fileID: 1425752285785811854, guid: 2b9889b40bbd61f428184e62fa47c0be, type: 3}
+      propertyPath: layerAreaVisao.m_Bits
+      value: 64
+      objectReference: {fileID: 0}
     - target: {fileID: 1425752285785811855, guid: 2b9889b40bbd61f428184e62fa47c0be, type: 3}
       propertyPath: m_RootOrder
       value: 12
@@ -76895,6 +77275,14 @@ PrefabInstance:
     - target: {fileID: 1425752285785811849, guid: 2b9889b40bbd61f428184e62fa47c0be, type: 3}
       propertyPath: m_Name
       value: Lagarto
+      objectReference: {fileID: 0}
+    - target: {fileID: 1425752285785811854, guid: 2b9889b40bbd61f428184e62fa47c0be, type: 3}
+      propertyPath: alvo
+      value: 
+      objectReference: {fileID: 1449897592}
+    - target: {fileID: 1425752285785811854, guid: 2b9889b40bbd61f428184e62fa47c0be, type: 3}
+      propertyPath: layerAreaVisao.m_Bits
+      value: 64
       objectReference: {fileID: 0}
     - target: {fileID: 1425752285785811855, guid: 2b9889b40bbd61f428184e62fa47c0be, type: 3}
       propertyPath: m_RootOrder
@@ -77610,6 +77998,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Lagarto (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 1425752285785811854, guid: 2b9889b40bbd61f428184e62fa47c0be, type: 3}
+      propertyPath: alvo
+      value: 
+      objectReference: {fileID: 1449897592}
+    - target: {fileID: 1425752285785811854, guid: 2b9889b40bbd61f428184e62fa47c0be, type: 3}
+      propertyPath: layerAreaVisao.m_Bits
+      value: 64
+      objectReference: {fileID: 0}
     - target: {fileID: 1425752285785811855, guid: 2b9889b40bbd61f428184e62fa47c0be, type: 3}
       propertyPath: m_RootOrder
       value: 22
@@ -77712,6 +78108,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 89.158
       objectReference: {fileID: 0}
+    - target: {fileID: 1581730637232783090, guid: b7db1303156b1314a8ff6ccba77d4dd5, type: 3}
+      propertyPath: alvo
+      value: 
+      objectReference: {fileID: 1449897592}
     - target: {fileID: 1581730637232783100, guid: b7db1303156b1314a8ff6ccba77d4dd5, type: 3}
       propertyPath: m_Name
       value: Inimigo Medio (49)
@@ -77919,6 +78319,14 @@ PrefabInstance:
     - target: {fileID: 1425752285785811849, guid: 2b9889b40bbd61f428184e62fa47c0be, type: 3}
       propertyPath: m_Name
       value: Lagarto (22)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1425752285785811854, guid: 2b9889b40bbd61f428184e62fa47c0be, type: 3}
+      propertyPath: alvo
+      value: 
+      objectReference: {fileID: 1449897592}
+    - target: {fileID: 1425752285785811854, guid: 2b9889b40bbd61f428184e62fa47c0be, type: 3}
+      propertyPath: layerAreaVisao.m_Bits
+      value: 64
       objectReference: {fileID: 0}
     - target: {fileID: 1425752285785811855, guid: 2b9889b40bbd61f428184e62fa47c0be, type: 3}
       propertyPath: m_RootOrder
@@ -78383,7 +78791,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1707703364}
   - component: {fileID: 1707703365}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Square
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -78570,6 +78978,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 89.158
       objectReference: {fileID: 0}
+    - target: {fileID: 1581730637232783090, guid: b7db1303156b1314a8ff6ccba77d4dd5, type: 3}
+      propertyPath: alvo
+      value: 
+      objectReference: {fileID: 1449897592}
     - target: {fileID: 1581730637232783100, guid: b7db1303156b1314a8ff6ccba77d4dd5, type: 3}
       propertyPath: m_Name
       value: Inimigo Medio (26)
@@ -78694,6 +79106,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 89.158
       objectReference: {fileID: 0}
+    - target: {fileID: 1581730637232783090, guid: b7db1303156b1314a8ff6ccba77d4dd5, type: 3}
+      propertyPath: alvo
+      value: 
+      objectReference: {fileID: 1449897592}
     - target: {fileID: 1581730637232783100, guid: b7db1303156b1314a8ff6ccba77d4dd5, type: 3}
       propertyPath: m_Name
       value: Inimigo Medio (33)
@@ -78818,6 +79234,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 89.158
       objectReference: {fileID: 0}
+    - target: {fileID: 1581730637232783090, guid: b7db1303156b1314a8ff6ccba77d4dd5, type: 3}
+      propertyPath: alvo
+      value: 
+      objectReference: {fileID: 1449897592}
     - target: {fileID: 1581730637232783100, guid: b7db1303156b1314a8ff6ccba77d4dd5, type: 3}
       propertyPath: m_Name
       value: Inimigo Medio (42)
@@ -78901,6 +79321,14 @@ PrefabInstance:
     - target: {fileID: 1425752285785811849, guid: 2b9889b40bbd61f428184e62fa47c0be, type: 3}
       propertyPath: m_Name
       value: Lagarto (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1425752285785811854, guid: 2b9889b40bbd61f428184e62fa47c0be, type: 3}
+      propertyPath: alvo
+      value: 
+      objectReference: {fileID: 1449897592}
+    - target: {fileID: 1425752285785811854, guid: 2b9889b40bbd61f428184e62fa47c0be, type: 3}
+      propertyPath: layerAreaVisao.m_Bits
+      value: 64
       objectReference: {fileID: 0}
     - target: {fileID: 1425752285785811855, guid: 2b9889b40bbd61f428184e62fa47c0be, type: 3}
       propertyPath: m_RootOrder
@@ -79190,6 +79618,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 89.158
       objectReference: {fileID: 0}
+    - target: {fileID: 1581730637232783090, guid: b7db1303156b1314a8ff6ccba77d4dd5, type: 3}
+      propertyPath: alvo
+      value: 
+      objectReference: {fileID: 1449897592}
     - target: {fileID: 1581730637232783100, guid: b7db1303156b1314a8ff6ccba77d4dd5, type: 3}
       propertyPath: m_Name
       value: Inimigo Medio (38)
@@ -79335,6 +79767,14 @@ PrefabInstance:
     - target: {fileID: 1425752285785811849, guid: 2b9889b40bbd61f428184e62fa47c0be, type: 3}
       propertyPath: m_Name
       value: Lagarto (32)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1425752285785811854, guid: 2b9889b40bbd61f428184e62fa47c0be, type: 3}
+      propertyPath: alvo
+      value: 
+      objectReference: {fileID: 1449897592}
+    - target: {fileID: 1425752285785811854, guid: 2b9889b40bbd61f428184e62fa47c0be, type: 3}
+      propertyPath: layerAreaVisao.m_Bits
+      value: 64
       objectReference: {fileID: 0}
     - target: {fileID: 1425752285785811855, guid: 2b9889b40bbd61f428184e62fa47c0be, type: 3}
       propertyPath: m_RootOrder
@@ -79624,6 +80064,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 89.158
       objectReference: {fileID: 0}
+    - target: {fileID: 1581730637232783090, guid: b7db1303156b1314a8ff6ccba77d4dd5, type: 3}
+      propertyPath: alvo
+      value: 
+      objectReference: {fileID: 1449897592}
     - target: {fileID: 1581730637232783100, guid: b7db1303156b1314a8ff6ccba77d4dd5, type: 3}
       propertyPath: m_Name
       value: Inimigo Medio (39)
@@ -79792,6 +80236,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 89.158
       objectReference: {fileID: 0}
+    - target: {fileID: 1581730637232783090, guid: b7db1303156b1314a8ff6ccba77d4dd5, type: 3}
+      propertyPath: alvo
+      value: 
+      objectReference: {fileID: 1449897592}
     - target: {fileID: 1581730637232783100, guid: b7db1303156b1314a8ff6ccba77d4dd5, type: 3}
       propertyPath: m_Name
       value: Inimigo Medio (16)
@@ -80040,6 +80488,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 89.158
       objectReference: {fileID: 0}
+    - target: {fileID: 1581730637232783090, guid: b7db1303156b1314a8ff6ccba77d4dd5, type: 3}
+      propertyPath: alvo
+      value: 
+      objectReference: {fileID: 1449897592}
     - target: {fileID: 1581730637232783100, guid: b7db1303156b1314a8ff6ccba77d4dd5, type: 3}
       propertyPath: m_Name
       value: Inimigo Medio (46)
@@ -81025,6 +81477,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 89.158
       objectReference: {fileID: 0}
+    - target: {fileID: 1581730637232783090, guid: b7db1303156b1314a8ff6ccba77d4dd5, type: 3}
+      propertyPath: alvo
+      value: 
+      objectReference: {fileID: 1449897592}
     - target: {fileID: 1581730637232783100, guid: b7db1303156b1314a8ff6ccba77d4dd5, type: 3}
       propertyPath: m_Name
       value: Inimigo Medio (24)
@@ -81425,6 +81881,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 89.158
       objectReference: {fileID: 0}
+    - target: {fileID: 1581730637232783090, guid: b7db1303156b1314a8ff6ccba77d4dd5, type: 3}
+      propertyPath: alvo
+      value: 
+      objectReference: {fileID: 1449897592}
     - target: {fileID: 1581730637232783100, guid: b7db1303156b1314a8ff6ccba77d4dd5, type: 3}
       propertyPath: m_Name
       value: Inimigo Medio (3)
@@ -81563,6 +82023,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 89.158
       objectReference: {fileID: 0}
+    - target: {fileID: 1581730637232783090, guid: b7db1303156b1314a8ff6ccba77d4dd5, type: 3}
+      propertyPath: alvo
+      value: 
+      objectReference: {fileID: 1449897592}
     - target: {fileID: 1581730637232783100, guid: b7db1303156b1314a8ff6ccba77d4dd5, type: 3}
       propertyPath: m_Name
       value: Inimigo Medio (20)
@@ -81687,6 +82151,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 89.158
       objectReference: {fileID: 0}
+    - target: {fileID: 1581730637232783090, guid: b7db1303156b1314a8ff6ccba77d4dd5, type: 3}
+      propertyPath: alvo
+      value: 
+      objectReference: {fileID: 1449897592}
     - target: {fileID: 1581730637232783100, guid: b7db1303156b1314a8ff6ccba77d4dd5, type: 3}
       propertyPath: m_Name
       value: Inimigo Medio (22)
@@ -81708,7 +82176,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2066314530}
   - component: {fileID: 2066314531}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Escudo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -81957,6 +82425,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 89.158
       objectReference: {fileID: 0}
+    - target: {fileID: 1581730637232783090, guid: b7db1303156b1314a8ff6ccba77d4dd5, type: 3}
+      propertyPath: alvo
+      value: 
+      objectReference: {fileID: 1449897592}
     - target: {fileID: 1581730637232783100, guid: b7db1303156b1314a8ff6ccba77d4dd5, type: 3}
       propertyPath: m_Name
       value: Inimigo Medio (31)
