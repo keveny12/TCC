@@ -1432,6 +1432,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 273e66c89095ef54eaf505b2d92a8b1d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scena: 1
   score: 0
   pauseObj: {fileID: 951133399}
   gameOverObj: {fileID: 951943078}
