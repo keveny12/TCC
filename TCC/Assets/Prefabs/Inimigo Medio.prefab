@@ -101,6 +101,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c6db777afce13ff498fade0a88225ea8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  alvo: {fileID: 0}
+  raioVisao: 11
+  layerAreaVisao:
+    serializedVersion: 2
+    m_Bits: 64
   VelocidadeDoInimigo: 1
   vidaMaximaDoInimigo: 2
   vidaAtualDoInimigo: 0

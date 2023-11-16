@@ -1,11 +1,15 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
+using Random = UnityEngine.Random;
 
 public class Inimigos : MonoBehaviour
 {
-    
+    public Transform alvo;
+    [SerializeField] private float raioVisao;
+    [SerializeField] private LayerMask layerAreaVisao;
     private Transform Target;
     public float VelocidadeDoInimigo;
     public int vidaMaximaDoInimigo;
@@ -30,15 +34,25 @@ public class Inimigos : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        MovimentoInimigo();
-        if (inimigoAtirador == false)
+        ProcurarJogador();
+        if (this.alvo != null)
         {
-            transform.position = Vector2.MoveTowards(transform.position, Target.position, VelocidadeDoInimigo * Time.deltaTime);
+            MovimentoInimigo();
+            if (inimigoAtirador == false)
+            {
+                transform.position = Vector2.MoveTowards(transform.position, Target.position, VelocidadeDoInimigo * Time.deltaTime);
+            }
+            if (inimigoAtirador == true)//se for atirador vai atirar
+            {
+                                           
+            }
         }
-        if (inimigoAtirador == true)//se for atirador vai atirar
+        else
         {
-            
+            //parar de mover
         }
+        
+        
     }
     private void MovimentoInimigo()
     {
@@ -55,6 +69,23 @@ public class Inimigos : MonoBehaviour
         }
     }
 
+    private void OnDrawGizmos()
+    {
+        Gizmos.DrawWireSphere(this.transform.position, this.raioVisao);
+    }
+
+    private void ProcurarJogador()
+    {
+       Collider2D colisor = Physics2D.OverlapCircle(this.transform.position, this.raioVisao, this.layerAreaVisao);
+       if (colisor != null)
+       {
+           this.alvo = colisor.transform;
+       }
+       else
+       {
+           this.alvo = null;
+       }
+    }
 
     public void DanoInimigo(int danoParaReceber)
     {

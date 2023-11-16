@@ -1882,7 +1882,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 274468520}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Local Do Disparo Direita
   m_TagString: Untagged
   m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
@@ -3350,7 +3350,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.06, y: -2.01, z: -10}
+  m_LocalPosition: {x: -5.3, y: -2.2, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -58945,6 +58945,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 89.158
       objectReference: {fileID: 0}
+    - target: {fileID: 1581730637232783090, guid: b7db1303156b1314a8ff6ccba77d4dd5, type: 3}
+      propertyPath: alvo
+      value: 
+      objectReference: {fileID: 1449897592}
     - target: {fileID: 1581730637232783100, guid: b7db1303156b1314a8ff6ccba77d4dd5, type: 3}
       propertyPath: m_Name
       value: Inimigo Medio (15)
@@ -59788,7 +59792,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1234682370}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Local Do Disparo Esquerda
   m_TagString: Untagged
   m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
@@ -59943,7 +59947,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1250105994}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: LocalDoDisparo
   m_TagString: Untagged
   m_Icon: {fileID: -5397416234189338067, guid: 0000000000000000d000000000000000, type: 0}
@@ -60661,7 +60665,7 @@ GameObject:
   - component: {fileID: 1449897593}
   - component: {fileID: 1449897594}
   - component: {fileID: 1449897595}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Player
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -60780,7 +60784,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1449897588}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.06, y: -2.01, z: 0}
+  m_LocalPosition: {x: -5.3, y: -2.2, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -78955,7 +78959,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1707703364}
   - component: {fileID: 1707703365}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Square
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -80798,7 +80802,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2066314530}
   - component: {fileID: 2066314531}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Escudo
   m_TagString: Untagged
   m_Icon: {fileID: 0}

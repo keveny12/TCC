@@ -6,6 +6,9 @@ using Random = UnityEngine.Random;
 
 public class Lagarto : MonoBehaviour
 {
+    public Transform alvo;
+    [SerializeField] private float raioVisao;
+    [SerializeField] private LayerMask layerAreaVisao;
     public GameObject laserDoLagarto;
     public Transform localDoDisparo;
     private Rigidbody2D rig;
@@ -30,13 +33,14 @@ public class Lagarto : MonoBehaviour
     void FixedUpdate()
     {
 
-       
+        ProcurarJogador();
+        if (this.alvo != null)
+        {
             rig.velocity = Vector2.left * velocidade;
-       
-            
-        
-                
-                
+        }
+
+
+
     }
 
     private void Update()
@@ -66,6 +70,23 @@ public class Lagarto : MonoBehaviour
                 Instantiate(itemParaDropar, transform.position, Quaternion.Euler(0f, 0f, 0f));
             }
             Destroy(this.gameObject);
+        }
+    }
+    private void OnDrawGizmos()
+    {
+        Gizmos.DrawWireSphere(this.transform.position, this.raioVisao);
+    }
+
+    private void ProcurarJogador()
+    {
+        Collider2D colisor = Physics2D.OverlapCircle(this.transform.position, this.raioVisao, this.layerAreaVisao);
+        if (colisor != null)
+        {
+            this.alvo = colisor.transform;
+        }
+        else
+        {
+            this.alvo = null;
         }
     }
 }
