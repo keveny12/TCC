@@ -73,16 +73,19 @@ public class GameController : MonoBehaviour
     }
     public void NextGame()
     {
+        Time.timeScale = 1f;
         SceneManager.LoadScene(1);
     }
 
     public void RestartGame()
     {
+        Time.timeScale = 1f;
         SceneManager.LoadScene(1);
     }
 
     public void VoltarParaMenu()
     {
+        Time.timeScale = 1f;
         SceneManager.LoadScene(0);
     }
     
