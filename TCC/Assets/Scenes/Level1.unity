@@ -80101,7 +80101,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerVelocidade: 5
-  "VelocidadePo\xE7\xE3o": 10
+  "VelocidadePo\xE7\xE3o": 7
   velocidadeEspinho: 3
   _playerVelocidadeInicial: 5
   tiroDoPlayer: {fileID: 6133503439516982640, guid: 9493b6401f30ef346b3331887c974374, type: 3}
@@ -80220,9 +80220,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   barraDeVidaDoJogador: {fileID: 2005917066}
-  vidaMaximaDoJogador: 10
+  vidaMaximaDoJogador: 100
   vidaAtualDoJogador: 0
-  vidaMaximaDoEscudo: 5
+  vidaMaximaDoEscudo: 10
   vidaAtualDoEscudo: 0
   temEscudo: 0
   escudoDoJogador: {fileID: 2066314529}
