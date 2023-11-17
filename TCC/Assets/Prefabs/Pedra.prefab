@@ -149,7 +149,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   velocidade: 2
   direcao: 0
-  danoParaDar: 4
+  danoParaDar: 2
 --- !u!95 &2024483198984700675
 Animator:
   serializedVersion: 4

@@ -54,6 +54,7 @@ public class Boss : MonoBehaviour
             rig.velocity = Vector2.down * velocidade;
         }
         
+        
     }
 
     private void AtirarLaser()

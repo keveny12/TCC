@@ -116,7 +116,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 245a3fb27d042da48b065017999d268a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocidadeDoTiro: 10
+  velocidadeDoTiro: 8
   danoParaDar: 1
 --- !u!50 &9061642608010286462
 Rigidbody2D:
@@ -151,4 +151,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87ef42fe2a692b94d99bb9b90d75e9e8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tempoDeVida: 2
+  tempoDeVida: 4

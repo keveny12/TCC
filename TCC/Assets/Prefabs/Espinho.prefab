@@ -137,4 +137,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   espinho: 1
-  danoParaDar: 2
+  danoParaDar: 0

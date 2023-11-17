@@ -6,7 +6,9 @@ using UnityEngine.SceneManagement;
 
 public class GameController : MonoBehaviour
 {
-    public int scena;
+    public int senaRestart;
+    public int senaNext;
+    public int scenaMenu;
     public static GameController instance;
     public int score;
     public GameObject pauseObj;
@@ -75,19 +77,19 @@ public class GameController : MonoBehaviour
     public void NextGame()
     {
         Time.timeScale = 1f;
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(senaNext);
     }
 
     public void RestartGame()
     {
         Time.timeScale = 1f;
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(senaRestart);
     }
 
     public void VoltarParaMenu()
     {
         Time.timeScale = 1f;
-        SceneManager.LoadScene(scena);
+        SceneManager.LoadScene(scenaMenu);
     }
     
 }

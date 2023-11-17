@@ -137,7 +137,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   VelocidadeDoTiro: 2.5
-  danoParaDar: 3
+  danoParaDar: 1
 --- !u!114 &1949273123455468860
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -150,4 +150,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87ef42fe2a692b94d99bb9b90d75e9e8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tempoDeVida: 5
+  tempoDeVida: 4

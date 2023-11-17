@@ -30,11 +30,12 @@ public class TimeController : MonoBehaviour
             restante -= Time.deltaTime;
             if (restante <= 0)
             {
-                andando = false;
-                tempo.text = "00:00";
+                
                 ChamarBoss();
                 GameController.instance.BarraDeVida();
                 //soltar o boss
+                andando = false;
+                tempo.text = "00:00";
             }
 
             int tempMin = Mathf.FloorToInt(restante / 60);
@@ -42,6 +43,8 @@ public class TimeController : MonoBehaviour
             tempo.text = string.Format("{00:00}:{01:00}", tempMin, tempSeg);
             
         }
+
+       
     }
     public void ChamarBoss()
     {

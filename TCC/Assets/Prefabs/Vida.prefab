@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 1107168881082378754}
   - component: {fileID: 1107168881082378755}
   - component: {fileID: 1107168881082378756}
-  - component: {fileID: 1107168881082378759}
   m_Layer: 0
   m_Name: Vida
   m_TagString: Untagged
@@ -119,17 +118,4 @@ MonoBehaviour:
   itemDeVida: 1
   itemDePocao: 0
   itemDeTiroDuplo: 0
-  vidaParaDar: 5
---- !u!114 &1107168881082378759
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1107168881082378752}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 87ef42fe2a692b94d99bb9b90d75e9e8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  tempoDeVida: 15
+  vidaParaDar: 20
