@@ -16,8 +16,10 @@ public class GameController : MonoBehaviour
     public GameObject gameOverObj;
     public GameObject fimFaseObj;
     public GameObject barraDeVida;
+    public Slider barraBoss;
     public Text scoreText;
     public GameObject fim;
+    
     
     void Start()
     {

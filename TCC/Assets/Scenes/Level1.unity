@@ -1748,6 +1748,7 @@ MonoBehaviour:
   gameOverObj: {fileID: 60768106}
   fimFaseObj: {fileID: 1968644147}
   barraDeVida: {fileID: 1019520388}
+  barraBoss: {fileID: 1019520390}
   scoreText: {fileID: 65431108}
   fim: {fileID: 0}
 --- !u!4 &146680801

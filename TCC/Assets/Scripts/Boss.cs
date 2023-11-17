@@ -25,9 +25,11 @@ public class Boss : MonoBehaviour
     void Start()
     {
         rig = GetComponent<Rigidbody2D>();
+        barraDeVidaDoBoss = GameController.instance.barraBoss;
         vidaAtualDoInimigo = vidaMaximaDoInimigo;
         barraDeVidaDoBoss.maxValue = vidaMaximaDoInimigo;
         barraDeVidaDoBoss.value = vidaAtualDoInimigo;
+        
     }
 
     
@@ -72,7 +74,7 @@ public class Boss : MonoBehaviour
     {
         vidaAtualDoInimigo -= danoParaReceber;
         barraDeVidaDoBoss.value = vidaAtualDoInimigo;
-
+        Debug.Log("perdeu vida");;
         if (vidaAtualDoInimigo <= 0)
         {
             Destroy(this.gameObject);

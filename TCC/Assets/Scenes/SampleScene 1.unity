@@ -1440,6 +1440,7 @@ MonoBehaviour:
   gameOverObj: {fileID: 951943078}
   fimFaseObj: {fileID: 401725602}
   barraDeVida: {fileID: 88445075}
+  barraBoss: {fileID: 88445077}
   scoreText: {fileID: 65431108}
   fim: {fileID: 0}
 --- !u!4 &146680801
@@ -3429,7 +3430,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.3, y: -2.7, z: -10}
+  m_LocalPosition: {x: 320.8, y: -13.4, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -61005,7 +61006,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1449897588}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.3, y: -2.7, z: 0}
+  m_LocalPosition: {x: 320.8, y: -13.4, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:

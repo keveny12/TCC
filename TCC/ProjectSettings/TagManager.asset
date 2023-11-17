@@ -11,6 +11,7 @@ TagManager:
   - Boss
   - Lagarto
   - spawnBoss
+  - slider
   layers:
   - Default
   - TransparentFX
