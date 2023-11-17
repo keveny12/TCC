@@ -1934,6 +1934,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 273e66c89095ef54eaf505b2d92a8b1d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scena: 0
   score: 0
   pauseObj: {fileID: 951133399}
   gameOverObj: {fileID: 951943078}
@@ -79772,10 +79773,6 @@ PrefabInstance:
       propertyPath: alvo
       value: 
       objectReference: {fileID: 1449897592}
-    - target: {fileID: 1425752285785811854, guid: 2b9889b40bbd61f428184e62fa47c0be, type: 3}
-      propertyPath: layerAreaVisao.m_Bits
-      value: 64
-      objectReference: {fileID: 0}
     - target: {fileID: 1425752285785811855, guid: 2b9889b40bbd61f428184e62fa47c0be, type: 3}
       propertyPath: m_RootOrder
       value: 0

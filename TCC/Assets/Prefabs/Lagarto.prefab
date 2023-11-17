@@ -44,6 +44,7 @@ GameObject:
   - component: {fileID: 1425752285785811853}
   - component: {fileID: 1425752285785811852}
   - component: {fileID: 1425752285785811842}
+  - component: {fileID: 7975682799137396365}
   m_Layer: 0
   m_Name: Lagarto
   m_TagString: Lagarto
@@ -83,7 +84,7 @@ MonoBehaviour:
   raioVisao: 11
   layerAreaVisao:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 64
   laserDoLagarto: {fileID: 6082036495663909130, guid: 382dc35a1e42a6542a194cea17df80c5, type: 3}
   localDoDisparo: {fileID: 1425752285591420774}
   velocidade: 2
@@ -156,7 +157,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 5
-  m_Sprite: {fileID: 21300000, guid: 340fb7f39c0f37a42b70886e6a9322a3, type: 3}
+  m_Sprite: {fileID: 2057322048, guid: ba60a42271355de45a004e40e6f7cc1c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -183,3 +184,23 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: 0}
   m_Size: {x: 1, y: 1}
   m_Direction: 0
+--- !u!95 &7975682799137396365
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1425752285785811849}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: bbb9ffd705ac57d4e801ebda4bff101d, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
