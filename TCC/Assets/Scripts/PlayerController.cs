@@ -31,6 +31,8 @@ public class PlayerController : MonoBehaviour
     public float tempoAtualDoEspinho;
     public float velocidade;
 
+    private AudioSource Audioo;
+
 
     // Start is called before the first frame update
     void Start()
@@ -42,6 +44,7 @@ public class PlayerController : MonoBehaviour
         tempoAtualDoEspinho = tempoMaximoDoEspinho;
         anim = GetComponent<Animator>();
 
+        Audioo = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -121,7 +124,9 @@ public class PlayerController : MonoBehaviour
                 Instantiate(tiroDoPlayer, localDoDisparoEsquerda.position, localDoDisparoEsquerda.rotation);
                 Instantiate(tiroDoPlayer, localDoDisparoDireita.position, localDoDisparoDireita.rotation);
             }
-            
+
+            Audioo.Play();
+
         }
     }
 
