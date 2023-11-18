@@ -88,7 +88,7 @@ MonoBehaviour:
   localDoDisparo: {fileID: 6347043909976760645}
   tempoMaximoEntreOsLasers: 0.5
   tempoAtualDosLasers: 0.5
-  vidaMaximaDoInimigo: 10
+  vidaMaximaDoInimigo: 60
   vidaAtualDoInimigo: 0
 --- !u!58 &6347043910461295705
 CircleCollider2D:
