@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 18243805269173065}
   - component: {fileID: 18243805269173066}
   - component: {fileID: 18243805269173077}
+  - component: {fileID: 8558533834925135519}
   m_Layer: 0
   m_Name: "Po\xE7\xE3o"
   m_TagString: Untagged
@@ -133,3 +134,23 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tempoDeVida: 15
+--- !u!95 &8558533834925135519
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 18243805269173070}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 0c2dfb3572741c54c890cde5539206f5, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0

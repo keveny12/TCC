@@ -12,6 +12,7 @@ public class VidaDoJogador : MonoBehaviour
     public int vidaAtualDoEscudo;
     public bool temEscudo;
     public GameObject escudoDoJogador; 
+    private AudioSource som; 
     
     void Start()
     {
@@ -22,6 +23,7 @@ public class VidaDoJogador : MonoBehaviour
         vidaAtualDoEscudo = vidaMaximaDoEscudo;
         escudoDoJogador.SetActive(false);
         temEscudo = false;
+        som = GetComponent<AudioSource>();
     }
     
     void Update()
@@ -55,6 +57,7 @@ public class VidaDoJogador : MonoBehaviour
         {
             vidaAtualDoJogador -= danoParaReceber;
             barraDeVidaDoJogador.value = vidaAtualDoJogador;
+            som.Play();
 
             if (vidaAtualDoJogador <= 0)
             {
