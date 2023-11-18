@@ -35,6 +35,7 @@ public class TimeController : MonoBehaviour
                 GameController.instance.BarraDeVida();
                 //soltar o boss
                 andando = false;
+               
                 tempo.text = "00:00";
             }
 

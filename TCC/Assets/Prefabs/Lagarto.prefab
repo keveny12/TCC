@@ -91,7 +91,7 @@ MonoBehaviour:
   tempoMaximoEntreOsLasers: 0.5
   tempoAtualDosLasers: 0
   direcao: 0
-  vidaMaximaDoInimigo: 3
+  vidaMaximaDoInimigo: 4
   vidaAtualDoInimigo: 0
   itemParaDropar: {fileID: 18243805269173070, guid: 1a71f820ba0f7a744baae222d49de989, type: 3}
   chanceParaDropar: 10
